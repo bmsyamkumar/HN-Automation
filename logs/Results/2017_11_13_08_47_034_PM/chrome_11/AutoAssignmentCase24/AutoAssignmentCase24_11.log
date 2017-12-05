@@ -1,0 +1,4 @@
+13/11/2017 23:07:06	INFO 	AutoAssignmentCase24_11		Staring the class
+13/11/2017 23:07:06	DEBUG	AutoAssignmentCase24_11		In Before Class method inside TestEngineWeb.
+13/11/2017 23:07:28	INFO 	AutoAssignmentCase24_11		Info: navigating URL : 'https://dev.hashching.co.uk/'
+13/11/2017 23:10:45	INFO 	AutoAssignmentCase24_11		Stopping the class

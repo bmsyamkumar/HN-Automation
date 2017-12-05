@@ -1,0 +1,9 @@
+13/11/2017 23:11:44	INFO 	AutoAssignmentCase25-AutoAssignmentCase25_AutoAssign_ChineseDealPage_11		Testcase executed on the Node IP: localhost
+13/11/2017 23:11:44	INFO 	AutoAssignmentCase25-AutoAssignmentCase25_AutoAssign_ChineseDealPage_11		***** Dataprovider Iteration No: 1 : *****
+13/11/2017 23:12:16	INFO 	AutoAssignmentCase25-AutoAssignmentCase25_AutoAssign_ChineseDealPage_11		Get text for Broker Name with Lead Count
+13/11/2017 23:12:16	INFO 	AutoAssignmentCase25-AutoAssignmentCase25_AutoAssign_ChineseDealPage_11		Successfully find 'By.xpath: //select[@class='brokers_active_dropdown']//option[contains(text(),'testFNameQNwhESeq testLastName')]' element on 'Hashching Admin' page
+13/11/2017 23:12:33	INFO 	AutoAssignmentCase25-AutoAssignmentCase25_AutoAssign_ChineseDealPage_11		Successfully find 'By.id: email' element on '' page
+13/11/2017 23:12:33	INFO 	AutoAssignmentCase25-AutoAssignmentCase25_AutoAssign_ChineseDealPage_11		Info. Element 'By.id: email' exists on '' page.
+13/11/2017 23:12:40	INFO 	AutoAssignmentCase25-AutoAssignmentCase25_AutoAssign_ChineseDealPage_11		Successfully find 'By.xpath: //a[@class='dropdown-toggle']' element on '' page
+13/11/2017 23:12:40	INFO 	AutoAssignmentCase25-AutoAssignmentCase25_AutoAssign_ChineseDealPage_11		Info. Element 'By.xpath: //a[@class='dropdown-toggle']' exists on '' page.
+13/11/2017 23:14:25	INFO 	AutoAssignmentCase25-AutoAssignmentCase25_AutoAssign_ChineseDealPage_11		Stopping the class

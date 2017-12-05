@@ -1,0 +1,9 @@
+13/11/2017 22:31:00	INFO 	AutoAssignmentCase7-autoAssignmentCase7_submitLead_autoAssignToBroker_reachMaxLeadCount_11		Testcase executed on the Node IP: localhost
+13/11/2017 22:31:00	INFO 	AutoAssignmentCase7-autoAssignmentCase7_submitLead_autoAssignToBroker_reachMaxLeadCount_11		***** Dataprovider Iteration No: 1 : *****
+13/11/2017 22:31:04	INFO 	AutoAssignmentCase7-autoAssignmentCase7_submitLead_autoAssignToBroker_reachMaxLeadCount_11		Successfully find 'By.xpath: //a[@title='Broker Finder']' element on 'HashChing - Variable and fixed home loan deals and rates from your local mortgage broker' page
+13/11/2017 22:31:04	INFO 	AutoAssignmentCase7-autoAssignmentCase7_submitLead_autoAssignToBroker_reachMaxLeadCount_11		Info. Element 'By.xpath: //a[@title='Broker Finder']' exists on 'HashChing - Variable and fixed home loan deals and rates from your local mortgage broker' page.
+13/11/2017 22:31:09	INFO 	AutoAssignmentCase7-autoAssignmentCase7_submitLead_autoAssignToBroker_reachMaxLeadCount_11		Successfully find 'By.xpath: //h3[contains(text(),'Mortgage Broker Finder')]' element on 'Mortgage broker finder - NSW, VIC, QLD, ACT, TAS, WA, NT' page
+13/11/2017 22:31:09	INFO 	AutoAssignmentCase7-autoAssignmentCase7_submitLead_autoAssignToBroker_reachMaxLeadCount_11		Info. Element 'By.xpath: //h3[contains(text(),'Mortgage Broker Finder')]' exists on 'Mortgage broker finder - NSW, VIC, QLD, ACT, TAS, WA, NT' page.
+13/11/2017 22:32:40	INFO 	AutoAssignmentCase7-autoAssignmentCase7_submitLead_autoAssignToBroker_reachMaxLeadCount_11		Stopping the class
+13/11/2017 22:33:02	INFO 	AutoAssignmentCase7-autoAssignmentCase7_submitLead_autoAssignToBroker_reachMaxLeadCount_11		hello
+13/11/2017 22:33:02	INFO 	AutoAssignmentCase7-autoAssignmentCase7_submitLead_autoAssignToBroker_reachMaxLeadCount_11		Staring the class

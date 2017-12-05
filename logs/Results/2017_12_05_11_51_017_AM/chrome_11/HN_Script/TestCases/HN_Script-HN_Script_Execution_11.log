@@ -1,0 +1,4 @@
+05/12/2017 11:51:51	INFO 	HN_Script-HN_Script_Execution_11		Testcase executed on the Node IP: localhost
+05/12/2017 11:51:51	INFO 	HN_Script-HN_Script_Execution_11		***** Dataprovider Iteration No: 1 : *****
+05/12/2017 11:52:07	INFO 	HN_Script-HN_Script_Execution_11		No such element(By.xpath: (//*[contains(text(),'Apple MacBook Pro 13 with Touch Bar 256GB - Space Grey')])[2]) found on 'Apple Computers & Laptops - Macbook Pro, Macbook Air, iMacs | Harvey Norman' page at https://www.harveynorman.com.au/computers-tablets/computers/apple-mac-computers' url.
+05/12/2017 11:52:31	INFO 	HN_Script-HN_Script_Execution_11		Stopping the class

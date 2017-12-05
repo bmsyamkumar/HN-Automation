@@ -1,0 +1,4 @@
+05/12/2017 17:41:12	INFO 	HN_Script_11		Staring the class
+05/12/2017 17:41:12	DEBUG	HN_Script_11		In Before Class method inside TestEngineWeb.
+05/12/2017 17:41:19	INFO 	HN_Script_11		Info: navigating URL : 'https://www.harveynorman.com.au/'
+05/12/2017 17:45:14	INFO 	HN_Script_11		Stopping the class

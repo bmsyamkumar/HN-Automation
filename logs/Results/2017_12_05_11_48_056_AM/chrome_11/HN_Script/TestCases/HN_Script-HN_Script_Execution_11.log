@@ -1,0 +1,5 @@
+05/12/2017 11:49:29	INFO 	HN_Script-HN_Script_Execution_11		Testcase executed on the Node IP: localhost
+05/12/2017 11:49:29	INFO 	HN_Script-HN_Script_Execution_11		***** Dataprovider Iteration No: 1 : *****
+05/12/2017 11:49:42	INFO 	HN_Script-HN_Script_Execution_11		Successfully find 'By.xpath: //*[@class='page-heading']' element on 'Apple Computers & Laptops - Macbook Pro, Macbook Air, iMacs | Harvey Norman' page
+05/12/2017 11:49:42	INFO 	HN_Script-HN_Script_Execution_11		Info. Element 'By.xpath: //*[@class='page-heading']' exists on 'Apple Computers & Laptops - Macbook Pro, Macbook Air, iMacs | Harvey Norman' page.
+05/12/2017 11:49:50	INFO 	HN_Script-HN_Script_Execution_11		Stopping the class

@@ -1,0 +1,15 @@
+13/11/2017 23:07:43	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		Testcase executed on the Node IP: localhost
+13/11/2017 23:07:43	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		***** Dataprovider Iteration No: 1 : *****
+13/11/2017 23:08:12	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		Get text for Broker Name with Lead Count
+13/11/2017 23:08:12	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		Successfully find 'By.xpath: //select[@class='brokers_active_dropdown']//option[contains(text(),'testFNamexaQJafUK testLastName')]' element on 'Hashching Admin' page
+13/11/2017 23:08:29	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		Successfully find 'By.id: email' element on '' page
+13/11/2017 23:08:29	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		Info. Element 'By.id: email' exists on '' page.
+13/11/2017 23:08:36	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		Successfully find 'By.xpath: //a[@class='dropdown-toggle']' element on '' page
+13/11/2017 23:08:37	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		Info. Element 'By.xpath: //a[@class='dropdown-toggle']' exists on '' page.
+13/11/2017 23:10:25	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		Successfully find 'By.id: email' element on '' page
+13/11/2017 23:10:25	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		Info. Element 'By.id: email' exists on '' page.
+13/11/2017 23:10:32	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		Successfully find 'By.xpath: //a[@class='dropdown-toggle']' element on '' page
+13/11/2017 23:10:32	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		Info. Element 'By.xpath: //a[@class='dropdown-toggle']' exists on '' page.
+13/11/2017 23:10:45	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		Stopping the class
+13/11/2017 23:11:08	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		hello
+13/11/2017 23:11:08	INFO 	AutoAssignmentCase24-AutoAssignmentCase24_AutoAssign_ChineseDealPage_11		Staring the class

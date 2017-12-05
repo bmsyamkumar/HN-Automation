@@ -1,0 +1,7 @@
+09/11/2017 19:38:28	INFO 	LeadSubmissionCase2-leadSubmissionCase2_submitGenericLead_FindOutMore_Positive_11		Testcase executed on the Node IP: localhost
+09/11/2017 19:38:28	INFO 	LeadSubmissionCase2-leadSubmissionCase2_submitGenericLead_FindOutMore_Positive_11		***** Dataprovider Iteration No: 1 : *****
+09/11/2017 19:38:39	INFO 	LeadSubmissionCase2-leadSubmissionCase2_submitGenericLead_FindOutMore_Positive_11		Successfully find 'By.xpath: //input[@name='first_name']' element on 'Hashching Home Loan Deals' page
+09/11/2017 19:38:39	INFO 	LeadSubmissionCase2-leadSubmissionCase2_submitGenericLead_FindOutMore_Positive_11		Info. Element 'By.xpath: //input[@name='first_name']' exists on 'Hashching Home Loan Deals' page.
+09/11/2017 19:39:39	INFO 	LeadSubmissionCase2-leadSubmissionCase2_submitGenericLead_FindOutMore_Positive_11		Stopping the class
+09/11/2017 19:40:01	INFO 	LeadSubmissionCase2-leadSubmissionCase2_submitGenericLead_FindOutMore_Positive_11		hello
+09/11/2017 19:40:01	INFO 	LeadSubmissionCase2-leadSubmissionCase2_submitGenericLead_FindOutMore_Positive_11		Staring the class

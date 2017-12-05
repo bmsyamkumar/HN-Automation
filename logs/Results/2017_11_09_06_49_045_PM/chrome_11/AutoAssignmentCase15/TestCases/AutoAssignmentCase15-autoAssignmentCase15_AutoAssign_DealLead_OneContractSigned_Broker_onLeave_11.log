@@ -1,0 +1,15 @@
+09/11/2017 20:12:38	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		Testcase executed on the Node IP: localhost
+09/11/2017 20:12:38	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		***** Dataprovider Iteration No: 1 : *****
+09/11/2017 20:13:10	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		Get text for Broker Name with Lead Count
+09/11/2017 20:13:10	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		Successfully find 'By.xpath: //select[@class='brokers_active_dropdown']//option[contains(text(),'John smith')]' element on 'Hashching Admin' page
+09/11/2017 20:13:49	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		Successfully find 'By.id: email' element on '' page
+09/11/2017 20:13:49	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		Info. Element 'By.id: email' exists on '' page.
+09/11/2017 20:13:56	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		Successfully find 'By.xpath: //a[@class='dropdown-toggle']' element on '' page
+09/11/2017 20:13:56	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		Info. Element 'By.xpath: //a[@class='dropdown-toggle']' exists on '' page.
+09/11/2017 20:15:59	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		Successfully find 'By.id: email' element on '' page
+09/11/2017 20:15:59	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		Info. Element 'By.id: email' exists on '' page.
+09/11/2017 20:16:07	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		Successfully find 'By.xpath: //a[@class='dropdown-toggle']' element on '' page
+09/11/2017 20:16:07	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		Info. Element 'By.xpath: //a[@class='dropdown-toggle']' exists on '' page.
+09/11/2017 20:16:20	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		Stopping the class
+09/11/2017 20:16:43	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		hello
+09/11/2017 20:16:43	INFO 	AutoAssignmentCase15-autoAssignmentCase15_AutoAssign_DealLead_OneContractSigned_Broker_onLeave_11		Staring the class

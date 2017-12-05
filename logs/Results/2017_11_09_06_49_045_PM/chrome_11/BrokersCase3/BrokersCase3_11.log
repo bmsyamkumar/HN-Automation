@@ -1,0 +1,4 @@
+09/11/2017 19:21:43	INFO 	BrokersCase3_11		Staring the class
+09/11/2017 19:21:43	DEBUG	BrokersCase3_11		In Before Class method inside TestEngineWeb.
+09/11/2017 19:22:05	INFO 	BrokersCase3_11		Info: navigating URL : 'https://dev.hashching.co.uk/'
+09/11/2017 19:24:30	INFO 	BrokersCase3_11		Stopping the class

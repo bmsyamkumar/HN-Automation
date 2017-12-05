@@ -1,0 +1,13 @@
+09/11/2017 19:25:31	INFO 	BrokersCase4-brokersCase4_subscriberBrokerSignUpNegative_11		Testcase executed on the Node IP: localhost
+09/11/2017 19:25:31	INFO 	BrokersCase4-brokersCase4_subscriberBrokerSignUpNegative_11		***** Dataprovider Iteration No: 1 : *****
+09/11/2017 19:25:36	INFO 	BrokersCase4-brokersCase4_subscriberBrokerSignUpNegative_11		Successfully find 'By.id: email' element on '' page
+09/11/2017 19:25:36	INFO 	BrokersCase4-brokersCase4_subscriberBrokerSignUpNegative_11		Info. Element 'By.id: email' exists on '' page.
+09/11/2017 19:25:46	INFO 	BrokersCase4-brokersCase4_subscriberBrokerSignUpNegative_11		Successfully find 'By.xpath: //label[contains(text(),'First Name')]' element on '' page
+09/11/2017 19:25:46	INFO 	BrokersCase4-brokersCase4_subscriberBrokerSignUpNegative_11		Info. Element 'By.xpath: //label[contains(text(),'First Name')]' exists on '' page.
+09/11/2017 19:25:50	INFO 	BrokersCase4-brokersCase4_subscriberBrokerSignUpNegative_11		Successfully find 'By.xpath: //a[@title='Broker Signup']' element on '' page
+09/11/2017 19:25:50	INFO 	BrokersCase4-brokersCase4_subscriberBrokerSignUpNegative_11		Info. Element 'By.xpath: //a[@title='Broker Signup']' exists on '' page.
+09/11/2017 19:25:56	INFO 	BrokersCase4-brokersCase4_subscriberBrokerSignUpNegative_11		Successfully find 'By.id: BrokerRegister' element on 'Home Loan Broker Registration Australia' page
+09/11/2017 19:25:56	INFO 	BrokersCase4-brokersCase4_subscriberBrokerSignUpNegative_11		Info. Element 'By.id: BrokerRegister' exists on 'Home Loan Broker Registration Australia' page.
+09/11/2017 19:26:53	INFO 	BrokersCase4-brokersCase4_subscriberBrokerSignUpNegative_11		Stopping the class
+09/11/2017 19:27:15	INFO 	BrokersCase4-brokersCase4_subscriberBrokerSignUpNegative_11		hello
+09/11/2017 19:27:15	INFO 	BrokersCase4-brokersCase4_subscriberBrokerSignUpNegative_11		Staring the class

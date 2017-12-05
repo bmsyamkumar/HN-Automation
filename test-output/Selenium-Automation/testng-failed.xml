@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Selenium-Automation]" parallel="tests">
+  <parameter name="cloudExecution" value="false"/>
+  <parameter name="environment" value="dev"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="userRegion" value="US"/>
+  <parameter name="emailReport" value="false"/>
+  <parameter name="version" value="54"/>
+  <parameter name="platform" value="windows"/>
+  <parameter name="seleniumGrid" value="false"/>
+  <listeners>
+    <listener class-name="com.web.automation.listeners.ExecutionListener"/>
+  </listeners>
+  <test name="Test-Login-Chrome(failed)" parallel="tests">
+    <parameter name="cloudExecution" value="false"/>
+    <parameter name="environment" value="dev"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="userRegion" value="US"/>
+    <parameter name="emailReport" value="false"/>
+    <parameter name="version" value="54"/>
+    <parameter name="platform" value="windows"/>
+    <parameter name="seleniumGrid" value="false"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.web.automation.scripts.HN_Script">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="HN_Script_Execution"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.web.automation.scripts.HN_Script -->
+    </classes>
+  </test> <!-- Test-Login-Chrome(failed) -->
+</suite> <!-- Failed suite [Selenium-Automation] -->

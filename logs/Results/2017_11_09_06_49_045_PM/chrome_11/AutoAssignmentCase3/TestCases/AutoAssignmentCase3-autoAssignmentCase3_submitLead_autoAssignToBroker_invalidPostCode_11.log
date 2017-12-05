@@ -1,0 +1,15 @@
+09/11/2017 19:33:16	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		Testcase executed on the Node IP: localhost
+09/11/2017 19:33:16	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		***** Dataprovider Iteration No: 1 : *****
+09/11/2017 19:33:20	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		Successfully find 'By.id: email' element on '' page
+09/11/2017 19:33:20	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		Info. Element 'By.id: email' exists on '' page.
+09/11/2017 19:33:28	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		Successfully find 'By.xpath: //a[@class='dropdown-toggle']' element on '' page
+09/11/2017 19:33:28	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		Info. Element 'By.xpath: //a[@class='dropdown-toggle']' exists on '' page.
+09/11/2017 19:34:07	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		Get text for Broker Name with Lead Count
+09/11/2017 19:34:07	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		Successfully find 'By.xpath: //select[@class='brokers_active_dropdown']//option[contains(text(),'Arvind Test')]' element on 'Hashching Admin' page
+09/11/2017 19:35:09	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		Successfully find 'By.xpath: //a[@title='Broker Finder']' element on 'HashChing - Variable and fixed home loan deals and rates from your local mortgage broker' page
+09/11/2017 19:35:09	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		Info. Element 'By.xpath: //a[@title='Broker Finder']' exists on 'HashChing - Variable and fixed home loan deals and rates from your local mortgage broker' page.
+09/11/2017 19:35:14	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		Successfully find 'By.xpath: //h3[contains(text(),'Mortgage Broker Finder')]' element on 'Mortgage broker finder - NSW, VIC, QLD, ACT, TAS, WA, NT' page
+09/11/2017 19:35:14	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		Info. Element 'By.xpath: //h3[contains(text(),'Mortgage Broker Finder')]' exists on 'Mortgage broker finder - NSW, VIC, QLD, ACT, TAS, WA, NT' page.
+09/11/2017 19:35:19	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		Stopping the class
+09/11/2017 19:35:41	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		hello
+09/11/2017 19:35:41	INFO 	AutoAssignmentCase3-autoAssignmentCase3_submitLead_autoAssignToBroker_invalidPostCode_11		Staring the class

@@ -1,0 +1,13 @@
+09/11/2017 18:50:08	INFO 	BrokersCase1-brokersCase1_brokerSignUpPositive_11		Testcase executed on the Node IP: localhost
+09/11/2017 18:50:08	INFO 	BrokersCase1-brokersCase1_brokerSignUpPositive_11		***** Dataprovider Iteration No: 1 : *****
+09/11/2017 18:50:13	INFO 	BrokersCase1-brokersCase1_brokerSignUpPositive_11		Successfully find 'By.xpath: //a[@title='Broker Signup']' element on 'HashChing - Variable and fixed home loan deals and rates from your local mortgage broker' page
+09/11/2017 18:50:13	INFO 	BrokersCase1-brokersCase1_brokerSignUpPositive_11		Info. Element 'By.xpath: //a[@title='Broker Signup']' exists on 'HashChing - Variable and fixed home loan deals and rates from your local mortgage broker' page.
+09/11/2017 18:50:20	INFO 	BrokersCase1-brokersCase1_brokerSignUpPositive_11		Successfully find 'By.id: BrokerRegister' element on 'Home Loan Broker Registration Australia' page
+09/11/2017 18:50:20	INFO 	BrokersCase1-brokersCase1_brokerSignUpPositive_11		Info. Element 'By.id: BrokerRegister' exists on 'Home Loan Broker Registration Australia' page.
+09/11/2017 18:51:31	INFO 	BrokersCase1-brokersCase1_brokerSignUpPositive_11		Successfully find 'By.xpath: //div[contains(@class,'languages')]//input' element on 'Home Loan Broker Registration Australia' page
+09/11/2017 18:51:31	INFO 	BrokersCase1-brokersCase1_brokerSignUpPositive_11		Info. Element 'By.xpath: //div[contains(@class,'languages')]//input' exists on 'Home Loan Broker Registration Australia' page.
+09/11/2017 18:51:44	INFO 	BrokersCase1-brokersCase1_brokerSignUpPositive_11		Successfully find 'By.id: email' element on '' page
+09/11/2017 18:51:44	INFO 	BrokersCase1-brokersCase1_brokerSignUpPositive_11		Info. Element 'By.id: email' exists on '' page.
+09/11/2017 18:52:09	INFO 	BrokersCase1-brokersCase1_brokerSignUpPositive_11		Stopping the class
+09/11/2017 18:52:31	INFO 	BrokersCase1-brokersCase1_brokerSignUpPositive_11		hello
+09/11/2017 18:52:31	INFO 	BrokersCase1-brokersCase1_brokerSignUpPositive_11		Staring the class

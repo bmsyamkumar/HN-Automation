@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium-Automation" parallel="tests" thread-count="5"
+	preserve-order="true" configfailurepolicy="continue" junit="false"
+	skipfailedinvocationcounts="false" data-provider-thread-count="10"
+	group-by-instances="false" allow-return-values="false">
+	<listeners>
+		<listener class-name="com.web.automation.listeners.ExecutionListener" />
+	</listeners>
+	<test name="Test-Login-Chrome" junit="false"
+		skipfailedinvocationcounts="false" preserve-order="true"
+		group-by-instances="false" allow-return-values="false">
+		<parameter name="platform" value="windows" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="version" value="54" />
+		<parameter name="environment" value="dev" />
+		<parameter name="userRegion" value="US" />
+		<parameter name="seleniumGrid" value="false" />
+		<parameter name="cloudExecution" value="false" />
+		<parameter name="emailReport" value="false" />
+		<groups>
+			<run>
+				<include name="smoke" />
+				<include name="regression" />
+			</run>
+		</groups>
+		<classes>					
+			<class name="com.web.automation.scripts.HN_Script" />
+							
+	</classes>
+	</test>
+</suite> 

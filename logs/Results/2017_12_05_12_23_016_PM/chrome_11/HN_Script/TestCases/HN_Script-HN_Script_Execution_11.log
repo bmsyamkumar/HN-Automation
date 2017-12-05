@@ -1,0 +1,12 @@
+05/12/2017 12:23:49	INFO 	HN_Script-HN_Script_Execution_11		Testcase executed on the Node IP: localhost
+05/12/2017 12:23:49	INFO 	HN_Script-HN_Script_Execution_11		***** Dataprovider Iteration No: 1 : *****
+05/12/2017 12:24:07	INFO 	HN_Script-HN_Script_Execution_11		Successfully find 'By.xpath: (//a[@class='name fn l_mgn-tb-sm l_dsp-blc'])[13]' element on 'Apple Computers & Laptops - Macbook Pro, Macbook Air, iMacs | Harvey Norman' page
+05/12/2017 12:24:07	INFO 	HN_Script-HN_Script_Execution_11		Info. Element 'By.xpath: (//a[@class='name fn l_mgn-tb-sm l_dsp-blc'])[13]' exists on 'Apple Computers & Laptops - Macbook Pro, Macbook Air, iMacs | Harvey Norman' page.
+05/12/2017 12:24:39	INFO 	HN_Script-HN_Script_Execution_11		Successfully find 'By.xpath: (//*[contains(text(),'Shopping Cart')])[3]' element on 'Shopping Cart | Harvey Norman Australia' page
+05/12/2017 12:24:39	INFO 	HN_Script-HN_Script_Execution_11		Info. Element 'By.xpath: (//*[contains(text(),'Shopping Cart')])[3]' exists on 'Shopping Cart | Harvey Norman Australia' page.
+05/12/2017 12:24:47	INFO 	HN_Script-HN_Script_Execution_11		Successfully find 'By.xpath: (//*[@class='btn btn_block btn_primary'])[1]' element on 'Shopping Cart | Harvey Norman Australia' page
+05/12/2017 12:24:47	INFO 	HN_Script-HN_Script_Execution_11		Info. Element 'By.xpath: (//*[@class='btn btn_block btn_primary'])[1]' exists on 'Shopping Cart | Harvey Norman Australia' page.
+05/12/2017 12:25:12	INFO 	HN_Script-HN_Script_Execution_11		Successfully find 'By.xpath: (//*[contains(text(),'Review your order')])[1]' element on 'One Step Checkout | Harvey Norman Australia' page
+05/12/2017 12:25:12	INFO 	HN_Script-HN_Script_Execution_11		Info. Element 'By.xpath: (//*[contains(text(),'Review your order')])[1]' exists on 'One Step Checkout | Harvey Norman Australia' page.
+05/12/2017 12:25:20	INFO 	HN_Script-HN_Script_Execution_11		No such element(By.xpath: //a[@title='Apply now']) found on 'One Step Checkout | Harvey Norman Australia' page at https://www.harveynorman.com.au/onestepcheckout/' url.
+05/12/2017 12:25:28	INFO 	HN_Script-HN_Script_Execution_11		Stopping the class

@@ -1,0 +1,4 @@
+13/11/2017 21:45:57	INFO 	LeadSubmissionCase2_11		Staring the class
+13/11/2017 21:45:57	DEBUG	LeadSubmissionCase2_11		In Before Class method inside TestEngineWeb.
+13/11/2017 21:46:20	INFO 	LeadSubmissionCase2_11		Info: navigating URL : 'https://dev.hashching.co.uk/'
+13/11/2017 21:47:45	INFO 	LeadSubmissionCase2_11		Stopping the class

@@ -1,0 +1,29 @@
+13/11/2017 21:34:16	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Testcase executed on the Node IP: localhost
+13/11/2017 21:34:16	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		***** Dataprovider Iteration No: 1 : *****
+13/11/2017 21:34:21	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Successfully find 'By.id: email' element on '' page
+13/11/2017 21:34:21	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Info. Element 'By.id: email' exists on '' page.
+13/11/2017 21:34:30	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Successfully find 'By.xpath: //input[@name='mobile']' element on '' page
+13/11/2017 21:34:30	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Info. Element 'By.xpath: //input[@name='mobile']' exists on '' page.
+13/11/2017 21:34:31	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Get text for Mobile Number Prepopulated
+13/11/2017 21:34:31	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Successfully find 'By.xpath: //input[@name='mobile']' element on '' page
+13/11/2017 21:34:31	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Get text for Office Address Prepopulated
+13/11/2017 21:34:31	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Successfully find 'By.xpath: //textarea[contains(@name,'address')]' element on '' page
+13/11/2017 21:34:31	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Get text for Suburb Prepopulated
+13/11/2017 21:34:31	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Successfully find 'By.xpath: //input[@name='suburb']' element on '' page
+13/11/2017 21:34:31	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Get text for State Selected Prepopulated
+13/11/2017 21:34:31	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Successfully find 'By.xpath: //select[@name='state']/option[@selected='selected']' element on '' page
+13/11/2017 21:34:31	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Get text for Servicing Area Prepopulated
+13/11/2017 21:34:31	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Successfully find 'By.xpath: //input[@name='broker_postcode']' element on '' page
+13/11/2017 21:34:31	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Get text for Servicing Area Within Prepopulated
+13/11/2017 21:34:31	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Successfully find 'By.xpath: //select[@name='broker_radius']' element on '' page
+13/11/2017 21:34:31	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Get text for Industry Association Prepopulated
+13/11/2017 21:34:31	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Successfully find 'By.xpath: //div[contains(@class,'industry_association')]/button/span' element on '' page
+13/11/2017 21:34:32	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Get text for Industry Association Prepopulated
+13/11/2017 21:34:32	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Successfully find 'By.xpath: //div[contains(@class,'industry_qualification')]/button/span' element on '' page
+13/11/2017 21:34:32	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Get text for Language Prepopulated
+13/11/2017 21:34:32	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Successfully find 'By.xpath: //div[contains(@class,'languages')]/button/span' element on '' page
+13/11/2017 21:34:32	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Get text for Total Experience Prepopulated
+13/11/2017 21:34:32	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Successfully find 'By.xpath: //input[contains(@name,'exp')]' element on '' page
+13/11/2017 21:34:32	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Stopping the class
+13/11/2017 21:34:54	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		hello
+13/11/2017 21:34:54	INFO 	BrokersCase5_VerifyProfileFields-brokersCase5_brokerProfileVerifyPrepopFields_11		Staring the class

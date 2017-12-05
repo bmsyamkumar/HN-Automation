@@ -1,0 +1,11 @@
+05/12/2017 20:38:56	INFO 	HN_Script-HN_Script_Execution_1		Testcase executed on the Node IP: localhost
+05/12/2017 20:38:56	INFO 	HN_Script-HN_Script_Execution_1		***** Dataprovider Iteration No: 1 : *****
+05/12/2017 20:39:18	INFO 	HN_Script-HN_Script_Execution_1		Successfully find 'By.xpath: (//a[@class='name fn l_mgn-tb-sm l_dsp-blc'])[13]' element on 'Apple Computers & Laptops - Macbook Pro, Macbook Air, iMacs | Harvey Norman' page
+05/12/2017 20:39:18	INFO 	HN_Script-HN_Script_Execution_1		Info. Element 'By.xpath: (//a[@class='name fn l_mgn-tb-sm l_dsp-blc'])[13]' exists on 'Apple Computers & Laptops - Macbook Pro, Macbook Air, iMacs | Harvey Norman' page.
+05/12/2017 20:39:54	INFO 	HN_Script-HN_Script_Execution_1		Successfully find 'By.xpath: (//*[contains(text(),'Shopping Cart')])[3]' element on 'Shopping Cart | Harvey Norman Australia' page
+05/12/2017 20:39:54	INFO 	HN_Script-HN_Script_Execution_1		Info. Element 'By.xpath: (//*[contains(text(),'Shopping Cart')])[3]' exists on 'Shopping Cart | Harvey Norman Australia' page.
+05/12/2017 20:40:03	INFO 	HN_Script-HN_Script_Execution_1		Successfully find 'By.xpath: (//*[@class='btn btn_block btn_primary'])[1]' element on 'Shopping Cart | Harvey Norman Australia' page
+05/12/2017 20:40:03	INFO 	HN_Script-HN_Script_Execution_1		Info. Element 'By.xpath: (//*[@class='btn btn_block btn_primary'])[1]' exists on 'Shopping Cart | Harvey Norman Australia' page.
+05/12/2017 20:40:29	INFO 	HN_Script-HN_Script_Execution_1		Successfully find 'By.xpath: (//*[contains(text(),'Review your order')])[1]' element on 'One Step Checkout | Harvey Norman Australia' page
+05/12/2017 20:40:29	INFO 	HN_Script-HN_Script_Execution_1		Info. Element 'By.xpath: (//*[contains(text(),'Review your order')])[1]' exists on 'One Step Checkout | Harvey Norman Australia' page.
+05/12/2017 20:41:14	INFO 	HN_Script-HN_Script_Execution_1		Stopping the class

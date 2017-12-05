@@ -1,0 +1,13 @@
+09/11/2017 20:46:00	INFO 	AutoAssignmentCase24-leadSubmissionCase24_AutoAssign_ChineseDealPage_11		Testcase executed on the Node IP: localhost
+09/11/2017 20:46:00	INFO 	AutoAssignmentCase24-leadSubmissionCase24_AutoAssign_ChineseDealPage_11		***** Dataprovider Iteration No: 1 : *****
+09/11/2017 20:46:29	INFO 	AutoAssignmentCase24-leadSubmissionCase24_AutoAssign_ChineseDealPage_11		Get text for Broker Name with Lead Count
+09/11/2017 20:46:29	INFO 	AutoAssignmentCase24-leadSubmissionCase24_AutoAssign_ChineseDealPage_11		Successfully find 'By.xpath: //select[@class='brokers_active_dropdown']//option[contains(text(),'testFNamexaQJafUK testLastName')]' element on 'Hashching Admin' page
+09/11/2017 20:46:47	INFO 	AutoAssignmentCase24-leadSubmissionCase24_AutoAssign_ChineseDealPage_11		Successfully find 'By.id: email' element on '' page
+09/11/2017 20:46:47	INFO 	AutoAssignmentCase24-leadSubmissionCase24_AutoAssign_ChineseDealPage_11		Info. Element 'By.id: email' exists on '' page.
+09/11/2017 20:46:56	INFO 	AutoAssignmentCase24-leadSubmissionCase24_AutoAssign_ChineseDealPage_11		Successfully find 'By.xpath: //a[@class='dropdown-toggle']' element on '' page
+09/11/2017 20:46:56	INFO 	AutoAssignmentCase24-leadSubmissionCase24_AutoAssign_ChineseDealPage_11		Info. Element 'By.xpath: //a[@class='dropdown-toggle']' exists on '' page.
+09/11/2017 20:48:54	INFO 	AutoAssignmentCase24-leadSubmissionCase24_AutoAssign_ChineseDealPage_11		Successfully find 'By.id: email' element on '' page
+09/11/2017 20:48:54	INFO 	AutoAssignmentCase24-leadSubmissionCase24_AutoAssign_ChineseDealPage_11		Info. Element 'By.id: email' exists on '' page.
+09/11/2017 20:49:02	INFO 	AutoAssignmentCase24-leadSubmissionCase24_AutoAssign_ChineseDealPage_11		Successfully find 'By.xpath: //a[@class='dropdown-toggle']' element on '' page
+09/11/2017 20:49:02	INFO 	AutoAssignmentCase24-leadSubmissionCase24_AutoAssign_ChineseDealPage_11		Info. Element 'By.xpath: //a[@class='dropdown-toggle']' exists on '' page.
+09/11/2017 20:49:15	INFO 	AutoAssignmentCase24-leadSubmissionCase24_AutoAssign_ChineseDealPage_11		Stopping the class

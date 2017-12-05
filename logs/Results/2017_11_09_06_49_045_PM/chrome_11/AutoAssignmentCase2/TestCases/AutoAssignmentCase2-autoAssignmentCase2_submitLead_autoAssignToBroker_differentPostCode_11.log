@@ -1,0 +1,11 @@
+09/11/2017 20:07:27	INFO 	AutoAssignmentCase2-autoAssignmentCase2_submitLead_autoAssignToBroker_differentPostCode_11		Testcase executed on the Node IP: localhost
+09/11/2017 20:07:27	INFO 	AutoAssignmentCase2-autoAssignmentCase2_submitLead_autoAssignToBroker_differentPostCode_11		***** Dataprovider Iteration No: 1 : *****
+09/11/2017 20:07:56	INFO 	AutoAssignmentCase2-autoAssignmentCase2_submitLead_autoAssignToBroker_differentPostCode_11		Get text for Broker Name with Lead Count
+09/11/2017 20:07:56	INFO 	AutoAssignmentCase2-autoAssignmentCase2_submitLead_autoAssignToBroker_differentPostCode_11		Successfully find 'By.xpath: //select[@class='brokers_active_dropdown']//option[contains(text(),'Arvind Test')]' element on 'Hashching Admin' page
+09/11/2017 20:08:12	INFO 	AutoAssignmentCase2-autoAssignmentCase2_submitLead_autoAssignToBroker_differentPostCode_11		Successfully find 'By.xpath: //a[@title='Broker Finder']' element on 'HashChing - Variable and fixed home loan deals and rates from your local mortgage broker' page
+09/11/2017 20:08:12	INFO 	AutoAssignmentCase2-autoAssignmentCase2_submitLead_autoAssignToBroker_differentPostCode_11		Info. Element 'By.xpath: //a[@title='Broker Finder']' exists on 'HashChing - Variable and fixed home loan deals and rates from your local mortgage broker' page.
+09/11/2017 20:08:22	INFO 	AutoAssignmentCase2-autoAssignmentCase2_submitLead_autoAssignToBroker_differentPostCode_11		Successfully find 'By.xpath: //h3[contains(text(),'Mortgage Broker Finder')]' element on 'Mortgage broker finder - NSW, VIC, QLD, ACT, TAS, WA, NT' page
+09/11/2017 20:08:22	INFO 	AutoAssignmentCase2-autoAssignmentCase2_submitLead_autoAssignToBroker_differentPostCode_11		Info. Element 'By.xpath: //h3[contains(text(),'Mortgage Broker Finder')]' exists on 'Mortgage broker finder - NSW, VIC, QLD, ACT, TAS, WA, NT' page.
+09/11/2017 20:08:28	INFO 	AutoAssignmentCase2-autoAssignmentCase2_submitLead_autoAssignToBroker_differentPostCode_11		Stopping the class
+09/11/2017 20:08:49	INFO 	AutoAssignmentCase2-autoAssignmentCase2_submitLead_autoAssignToBroker_differentPostCode_11		hello
+09/11/2017 20:08:49	INFO 	AutoAssignmentCase2-autoAssignmentCase2_submitLead_autoAssignToBroker_differentPostCode_11		Staring the class
