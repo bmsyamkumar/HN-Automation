@@ -76,7 +76,10 @@ public class ExtentHTML {
 			if (file.exists()) {
 				file.delete();
 			}
-			if(System.getenv("jenkins_home")==null){
+			
+			String JenkinHome = "Yes";
+			//if(System.getenv("jenkins_home")==null){
+			if(JenkinHome==null){
 				String timestamp = new SimpleDateFormat("yyyy_MM_dd_hh_mm_sss_a").format(new Date());
 				CommonVariables.extentReportPath.set(System.getProperty("user.dir").replace("\\", "/")+"/logs/Reports/local/ExtentReports_"+timestamp+".html");
 			}else{

@@ -31,7 +31,7 @@ import com.google.gson.Gson;
 
 import groovy.json.JsonParser;
 import io.appium.java_client.pagefactory.utils.ProxyFactory;
-import net.minidev.json.JSONObject;
+//import net.minidev.json.JSONObject;
 import java.util.HashMap;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
@@ -40,7 +40,11 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicHeader;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.protocol.HTTP;
-import org.json.JSONArray;
+//import org.json.JSONArray;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import org.json.simple.parser.JSONParser;
 
 public class API {
@@ -49,125 +53,158 @@ public class API {
 		// TODO Auto-generated constructor stub
 		
 
-		  try {
+	}
 
-				
-				
-				
-				/*//POST
-			  DefaultHttpClient httpClient1 = new DefaultHttpClient();
-				HttpPost postReq = new HttpPost(
-						"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns");
-				postReq.addHeader("accept", "application/json");
-				postReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
-				
-				List<NameValuePair> pairs = new ArrayList<NameValuePair>();
-				pairs.add(new BasicNameValuePair("TestId", "5120088"));
-				postReq.setEntity(new UrlEncodedFormEntity(pairs ));			
-				HttpResponse response1 = httpClient1.execute(postReq);
-				
-				
-				if (response1.getStatusLine().getStatusCode() != 200) {
-					throw new RuntimeException("Failed : HTTP error code : "
-					   + response1.getStatusLine().getStatusCode());
-				}
-
-				BufferedReader br1 = new BufferedReader(
-		                         new InputStreamReader((response1.getEntity().getContent())));
-
-				String output1;
-				StringBuilder stringBuilder = new StringBuilder();
-				System.out.println("Output from Server .... \n");
-				while ((output1 = br1.readLine()) != null) {
-					System.out.println(output1);
-					stringBuilder.append(output1);
-				}
-				
-				String result1 = stringBuilder.toString();
-				System.out.println("Hello");
-				
-				httpClient1.getConnectionManager().shutdown();*/
-				
-				//GET
-				DefaultHttpClient httpClient2 = new DefaultHttpClient();
-				
-				HttpGet getRequest = new HttpGet(
-				"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/916823/items");
-				getRequest.addHeader("accept", "application/json");
-				getRequest.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
-				HttpResponse response2 = httpClient2.execute(getRequest);
-				
-				if (response2.getStatusLine().getStatusCode() != 200) {
-					throw new RuntimeException("Failed : HTTP error code : "
-					   + response2.getStatusLine().getStatusCode());
-				}
-
-				BufferedReader br2 = new BufferedReader(
-		                         new InputStreamReader((response2.getEntity().getContent())));
-
-				String output2;
-				StringBuilder stringBuilder = new StringBuilder();
-				System.out.println("Output from Server .... \n");
-				while ((output2 = br2.readLine()) != null) {
-					System.out.println(output2);
-					stringBuilder.append(output2);
-				}
-				String result1 = stringBuilder.toString();
-				
-				
+	public static void main(String[] args) {
+		
+	
+		
+		 try {
+			 
+			//POST
+			 DefaultHttpClient httpClient1 = new DefaultHttpClient();
+			HttpPost postReq = new HttpPost(
+					"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns");
+			postReq.addHeader("accept", "application/json");
+			postReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
 			
-				
-				
-			/*	JSONParser parse1 = JSONParser();
-				JSONObject jobj = (JSONObject)parse1.parse(result1);
-				JSONArray jarray = (JSONArray)jobj.get("results");
-				JSONObject jobj_1 = (JSONObject)jobj_1.get(0);
-				String TestId = (String) jobj_1.get("id");
-				*/
-				
-				httpClient2.getConnectionManager().shutdown();
-				
-				/*//PATCH
-				DefaultHttpClient httpClient3 = new DefaultHttpClient();
-				HttpPatch patchReq = new HttpPatch(
-						"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/916616/items/5191504");
-				patchReq.addHeader("accept", "application/json");
-				patchReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
-				
-				List<NameValuePair> pairs1 = new ArrayList<NameValuePair>();
-				pairs1.add(new BasicNameValuePair("StatusCode", "Passed"));
-				patchReq.setEntity(new UrlEncodedFormEntity(pairs1));
-				HttpResponse response3 = httpClient3.execute(patchReq);
-				
-				
-
-				if (response3.getStatusLine().getStatusCode() != 200) {
-					throw new RuntimeException("Failed : HTTP error code : "
-					   + response3.getStatusLine().getStatusCode());
-				}
-
-				BufferedReader br3 = new BufferedReader(
-		                         new InputStreamReader((response3.getEntity().getContent())));
-
-				String output3;
-				System.out.println("Output from Server .... \n");
-				while ((output3 = br3.readLine()) != null) {
-					System.out.println(output3);
-				}
-
-				httpClient3.getConnectionManager().shutdown();*/
-
-			  } catch (ClientProtocolException e) {
-
-				e.printStackTrace();
-
-			  } catch (IOException e) {
-
-				e.printStackTrace();
-			  }
-
+			List<NameValuePair> pairs = new ArrayList<NameValuePair>();
+			pairs.add(new BasicNameValuePair("TestId", "5120088"));
+			postReq.setEntity(new UrlEncodedFormEntity(pairs ));			
+			HttpResponse response1 = httpClient1.execute(postReq);
+						
+			if (response1.getStatusLine().getStatusCode() != 200) {
+				throw new RuntimeException("Failed : HTTP error code : "
+				   + response1.getStatusLine().getStatusCode());
 			}
 
+			BufferedReader br1 = new BufferedReader(
+	                         new InputStreamReader((response1.getEntity().getContent())));
+
+			String output1;
+			StringBuilder stringBuilder1 = new StringBuilder();
+			System.out.println("Output from Server .... \n");
+			while ((output1 = br1.readLine()) != null) {
+				System.out.println(output1);
+				stringBuilder1.append(output1);
+			}
+			
+			String result1 = stringBuilder1.toString();
+			
+			
+			JSONParser parse1 = new JSONParser();
+			JSONObject jobj1 = (JSONObject)parse1.parse(result1);
+			//JSONArray jarray1 = (JSONArray)jobj1.get("id");
+			
+			//JSONObject jobj1_1 = (JSONObject)jarray1.get(0);
+			Long TestId1 = (Long) jobj1.get("id");
+			
+			
+			System.out.println(TestId1);
+			
+			
+			httpClient1.getConnectionManager().shutdown();
+			
+			 
+			 
+			//GET
+			DefaultHttpClient httpClient2 = new DefaultHttpClient();
+			
+			HttpGet getRequest = new HttpGet(
+			"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/" + TestId1 + "/items");
+			getRequest.addHeader("accept", "application/json");
+			getRequest.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
+			HttpResponse response2 = httpClient2.execute(getRequest);
+			
+			if (response2.getStatusLine().getStatusCode() != 200) {
+				throw new RuntimeException("Failed : HTTP error code : "
+				   + response2.getStatusLine().getStatusCode());
+			}
+
+			BufferedReader br2 = new BufferedReader(
+	                         new InputStreamReader((response2.getEntity().getContent())));
+
+			String output2;
+			StringBuilder stringBuilder2 = new StringBuilder();
+			System.out.println("Output from Server .... \n");
+			while ((output2 = br2.readLine()) != null) {
+				System.out.println(output2);
+				stringBuilder2.append(output2);
+			}
+			String result2 = stringBuilder2.toString();
+			
+			
+			
+				
+			JSONParser parse = new JSONParser();
+			JSONObject jobj = (JSONObject)parse.parse(result2);
+			JSONArray jarray = (JSONArray)jobj.get("results");
+			
+			JSONObject jobj_1 = (JSONObject)jarray.get(0);
+			Long TestId2 = (Long) jobj_1.get("id");
+			
+			
+			System.out.println(TestId2);
+			
+			httpClient2.getConnectionManager().shutdown();
+			
+			//PATCH
+			DefaultHttpClient httpClient3 = new DefaultHttpClient();
+			HttpPatch patchReq = new HttpPatch(
+					"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/"+TestId1+"/items/"+TestId2);
+			patchReq.addHeader("accept", "application/json");
+			patchReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
+			
+			List<NameValuePair> pairs1 = new ArrayList<NameValuePair>();
+			pairs1.add(new BasicNameValuePair("StatusCode", "Failed"));
+			
+			List<NameValuePair> pairs2 = new ArrayList<NameValuePair>();
+			pairs2.add(new BasicNameValuePair("StepName", "step1"));
+			pairs2.add(new BasicNameValuePair("StatusCode", "Failed"));
+			
+			patchReq.setEntity(new UrlEncodedFormEntity(pairs1));
+			patchReq.setEntity(new UrlEncodedFormEntity(pairs2));
+			HttpResponse response3 = httpClient3.execute(patchReq);
+			
+			
+			
+			if (response3.getStatusLine().getStatusCode() != 200) {
+				throw new RuntimeException("Failed : HTTP error code : "
+				   + response3.getStatusLine().getStatusCode());
+			}
+
+			BufferedReader br3 = new BufferedReader(
+	                         new InputStreamReader((response3.getEntity().getContent())));
+			
+			String output3;
+			StringBuilder stringBuilder3 = new StringBuilder();
+			System.out.println("Output from Server .... \n");
+			while ((output3 = br3.readLine()) != null) {
+				System.out.println(output3);
+				stringBuilder3.append(output3);
+			}
+			String result3 = stringBuilder3.toString();
+			
+			httpClient3.getConnectionManager().shutdown();
+			
+			
+			
+			
+
+		  } catch (ClientProtocolException e) {
+
+			e.printStackTrace();
+
+		  } catch (IOException e) {
+
+			e.printStackTrace();
+		  
+		  } catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
 	
 
 }
