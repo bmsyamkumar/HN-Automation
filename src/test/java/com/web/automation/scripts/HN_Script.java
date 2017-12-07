@@ -192,7 +192,7 @@ public class HN_Script extends TestEngineWeb {
 				
 				
 				System.out.println(TestId2);
-				
+				System.out.println(TestId2);
 				httpClient2.getConnectionManager().shutdown();
 				
 				//PATCH
