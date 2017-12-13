@@ -35,10 +35,7 @@ import com.web.automation.utilities.RandomTextUtils;
 
 /*
  * Test Title:
- * Auto Assignment Case #1: Test Lead Submission and auto assignment to the broker - Lead pHNtcode same as Broker pHNtcode
- *  
- * Pre-condition: Broker is not on leave 
- * 
+ * Order Mac book through Harvey Norman*  
  * 
  */
 
@@ -108,15 +105,13 @@ public class HN_Script extends TestEngineWeb {
 	public void HN_Script_Execution() throws Throwable {
 		try {	
 				//
-				HN.HN_Function1();
+				HN.HN_OrderItem();
 				
 				//Post execution status to QA Complete
 				HN.PostInQAComplete("Passed");
 				
 				//Post execution status to qTest Manager
 				HN.PostInQTest("Passed");
-				
-				//hello
 				
 		}catch (Exception e) {
 			

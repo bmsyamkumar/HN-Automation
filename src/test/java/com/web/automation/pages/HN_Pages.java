@@ -74,7 +74,7 @@ public class HN_Pages extends BasePage {
 		super(driver);
 	}
 
-	public void HN_Function1() throws Throwable {
+	public void HN_OrderItem() throws Throwable {
 		try {
 			extentLogs.info("HN Portal ", "HN Portal - Launched");
 			
