@@ -9507,3 +9507,43 @@ Thu Dec 07 15:00:21 IST 2017 SEVERE javascript 1:353 Uncaught ReferenceError: PA
 Thu Dec 07 15:00:53 IST 2017 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
 Thu Dec 07 15:01:18 IST 2017 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11657 Uncaught ReferenceError: PAGE_INFO is not defined
 Thu Dec 07 15:01:45 IST 2017 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11657 Uncaught ReferenceError: PAGE_INFO is not defined
+Wed Dec 13 10:18:26 IST 2017 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 1007:0 Uncaught ReferenceError: HN_PAGE_INFO is not defined
+Wed Dec 13 10:18:26 IST 2017 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 936:10 Uncaught ReferenceError: IMG_PLACEHOLDER is not defined
+Wed Dec 13 10:19:10 IST 2017 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Wed Dec 13 10:22:20 IST 2017 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 1007:0 Uncaught ReferenceError: HN_PAGE_INFO is not defined
+Wed Dec 13 10:22:20 IST 2017 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 936:10 Uncaught ReferenceError: IMG_PLACEHOLDER is not defined
+Wed Dec 13 10:22:57 IST 2017 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Wed Dec 13 10:23:10 IST 2017 SEVERE https://www.harveynorman.com.au/shippingmethod/cart/estimatePost?shippingmethod=pickup_pickup&_=1513140787810 - Failed to load resource: the server responded with a status of 404 (Not Found)
+Wed Dec 13 10:23:46 IST 2017 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
+Wed Dec 13 10:23:46 IST 2017 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Wed Dec 13 10:24:02 IST 2017 SEVERE https://www.harveynorman.com.au/onestepcheckout/ajax/set_methods_separate/ - Failed to load resource: the server responded with a status of 404 (Not Found)
+Wed Dec 13 10:28:04 IST 2017 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 1007:0 Uncaught ReferenceError: HN_PAGE_INFO is not defined
+Wed Dec 13 10:28:04 IST 2017 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 936:10 Uncaught ReferenceError: IMG_PLACEHOLDER is not defined
+Wed Dec 13 10:29:02 IST 2017 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Wed Dec 13 10:29:50 IST 2017 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Wed Dec 13 10:29:58 IST 2017 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
+Wed Dec 13 10:30:23 IST 2017 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
+Wed Dec 13 11:21:04 IST 2017 SEVERE https://script.hotjar.com/modules-31ea115674fe83d1c8803adf6798fcf1.js - Failed to load resource: net::ERR_TIMED_OUT
+Wed Dec 13 11:21:04 IST 2017 SEVERE https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html - Failed to load resource: net::ERR_TIMED_OUT
+Wed Dec 13 11:22:01 IST 2017 SEVERE https://script.hotjar.com/modules-31ea115674fe83d1c8803adf6798fcf1.js - Failed to load resource: net::ERR_TIMED_OUT
+Wed Dec 13 11:22:01 IST 2017 SEVERE https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html - Failed to load resource: net::ERR_TIMED_OUT
+Wed Dec 13 11:22:04 IST 2017 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 1007:0 Uncaught ReferenceError: HN_PAGE_INFO is not defined
+Wed Dec 13 11:22:04 IST 2017 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 936:10 Uncaught ReferenceError: IMG_PLACEHOLDER is not defined
+Wed Dec 13 11:27:42 IST 2017 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 1007:0 Uncaught ReferenceError: HN_PAGE_INFO is not defined
+Wed Dec 13 11:27:42 IST 2017 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 936:10 Uncaught ReferenceError: IMG_PLACEHOLDER is not defined
+Wed Dec 13 11:29:03 IST 2017 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Wed Dec 13 11:33:22 IST 2017 SEVERE https://static.hotjar.com/c/hotjar-307812.js?sv=5 - Failed to load resource: net::ERR_TIMED_OUT
+Wed Dec 13 11:35:29 IST 2017 SEVERE https://static.hotjar.com/c/hotjar-307812.js?sv=5 - Failed to load resource: net::ERR_TIMED_OUT
+Wed Dec 13 11:35:33 IST 2017 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 1007:0 Uncaught ReferenceError: HN_PAGE_INFO is not defined
+Wed Dec 13 11:35:33 IST 2017 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 936:10 Uncaught ReferenceError: IMG_PLACEHOLDER is not defined
+Wed Dec 13 11:36:14 IST 2017 SEVERE https://static.hotjar.com/c/hotjar-307812.js?sv=5 - Failed to load resource: net::ERR_TIMED_OUT
+Wed Dec 13 13:30:07 IST 2017 SEVERE https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html - Failed to load resource: net::ERR_TIMED_OUT
+Wed Dec 13 13:30:09 IST 2017 SEVERE https://script.hotjar.com/modules-31ea115674fe83d1c8803adf6798fcf1.js 170 Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://vars.hotjar.com') does not match the recipient window's origin ('null').
+Wed Dec 13 13:31:25 IST 2017 SEVERE https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html - Failed to load resource: net::ERR_TIMED_OUT
+Wed Dec 13 13:31:28 IST 2017 SEVERE https://script.hotjar.com/modules-31ea115674fe83d1c8803adf6798fcf1.js 170 Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://vars.hotjar.com') does not match the recipient window's origin ('null').
+Wed Dec 13 13:54:54 IST 2017 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 1007:0 Uncaught ReferenceError: HN_PAGE_INFO is not defined
+Wed Dec 13 13:54:54 IST 2017 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 936:10 Uncaught ReferenceError: IMG_PLACEHOLDER is not defined
+Wed Dec 13 13:55:33 IST 2017 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Wed Dec 13 13:56:00 IST 2017 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Wed Dec 13 13:56:11 IST 2017 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
+Wed Dec 13 13:56:30 IST 2017 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined

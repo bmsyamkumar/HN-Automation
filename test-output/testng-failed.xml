@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Selenium-Automation]" parallel="tests">
-  <parameter name="cloudExecution" value="false"/>
-  <parameter name="environment" value="dev"/>
-  <parameter name="browser" value="chrome"/>
-  <parameter name="userRegion" value="US"/>
-  <parameter name="emailReport" value="false"/>
-  <parameter name="version" value="54"/>
-  <parameter name="platform" value="windows"/>
-  <parameter name="seleniumGrid" value="false"/>
+<suite thread-count="-1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Selenium-Automation]">
   <listeners>
     <listener class-name="com.web.automation.listeners.ExecutionListener"/>
   </listeners>
-  <test name="Test-Login-Chrome(failed)" parallel="tests">
+  <test name="Test-Login-Chrome(failed)">
     <parameter name="cloudExecution" value="false"/>
     <parameter name="environment" value="dev"/>
     <parameter name="browser" value="chrome"/>
@@ -32,8 +24,8 @@
         <methods>
           <include name="afterSuite"/>
           <include name="beforeSuite"/>
-          <include name="beforeMethod"/>
           <include name="afterTest"/>
+          <include name="beforeMethod"/>
           <include name="beforeTest"/>
           <include name="afterClass"/>
           <include name="beforeClass"/>

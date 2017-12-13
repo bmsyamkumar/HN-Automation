@@ -61,6 +61,123 @@ public class API {
 		
 		 try {
 			 
+			 
+			 	/*DefaultHttpClient httpClient1 = new DefaultHttpClient();
+				
+				HttpGet getRequest = new HttpGet(
+				"https://venugopalkadiri.qtestnet.com/api/v3/projects/64875/test-cases/17011735");
+				getRequest.addHeader("accept", "application/json");
+				getRequest.addHeader("Authorization", "dmVudWdvcGFsa2FkaXJpfHZlbnVnb3BhbC5rYWRpcmlAY2lnbml0aS5jb206MTU0NDYyNjgxNTEyNjplNThkNDYzZmFiMzI3ZTRhOGNiZTkzOGU5YTExMDAwNQ=");
+				HttpResponse response1 = httpClient1.execute(getRequest);
+				
+				if (response1.getStatusLine().getStatusCode() != 200) {
+					throw new RuntimeException("Failed : HTTP error code : "
+					   + response1.getStatusLine().getStatusCode());
+				}
+
+				BufferedReader br1 = new BufferedReader(
+		                         new InputStreamReader((response1.getEntity().getContent())));
+
+				String output1;
+				StringBuilder stringBuilder1 = new StringBuilder();
+				System.out.println("Output from Server .... \n");
+				while ((output1 = br1.readLine()) != null) {
+					System.out.println(output1);
+					stringBuilder1.append(output1);
+				}
+				String result1 = stringBuilder1.toString();
+				
+				
+				
+					
+				JSONParser parse = new JSONParser();
+				JSONObject jobj = (JSONObject)parse.parse(result1);
+				Long TestId1 = (Long) jobj.get("test_case_version_id");
+				
+				
+				System.out.println(TestId1);
+				
+				httpClient1.getConnectionManager().shutdown();*/
+			 
+			 
+				
+				
+				/*DefaultHttpClient httpClient2 = new DefaultHttpClient();
+				
+				HttpGet getRequest = new HttpGet(
+				"https://venugopalkadiri.qtestnet.com/api/v3/projects/64875/test-cases/17011735/versions/19960954/test-steps?expand=");
+				getRequest.addHeader("accept", "application/json");
+				getRequest.addHeader("Authorization", "dmVudWdvcGFsa2FkaXJpfHZlbnVnb3BhbC5rYWRpcmlAY2lnbml0aS5jb206MTU0NDYyNjgxNTEyNjplNThkNDYzZmFiMzI3ZTRhOGNiZTkzOGU5YTExMDAwNQ=");
+				HttpResponse response2 = httpClient2.execute(getRequest);
+				
+				if (response2.getStatusLine().getStatusCode() != 200) {
+					throw new RuntimeException("Failed : HTTP error code : "
+					   + response2.getStatusLine().getStatusCode());
+				}
+
+				BufferedReader br2 = new BufferedReader(
+		                         new InputStreamReader((response2.getEntity().getContent())));
+
+				String output2;
+				StringBuilder stringBuilder2 = new StringBuilder();
+				System.out.println("Output from Server .... \n");
+				while ((output2 = br2.readLine()) != null) {
+					System.out.println(output2);
+					stringBuilder2.append(output2);
+				}
+				String result2 = stringBuilder2.toString();
+				
+				
+				
+					
+				JSONParser parse = new JSONParser();
+				JSONArray jobj = (JSONArray)parse.parse(result2);
+				JSONObject s1 = (JSONObject)jobj.get(0);
+				Long TestId2 = (Long) s1.get("id");
+				
+				System.out.println(TestId2);
+				httpClient2.getConnectionManager().shutdown();*/
+				
+				
+			 	/*DefaultHttpClient httpClient3 = new DefaultHttpClient();
+				HttpPost postReq = new HttpPost(
+						"https://venugopalkadiri.qtestnet.com/api/v3/projects/64875/test-runs/29562565/test-logs");
+				postReq.addHeader("accept", "application/json");
+				postReq.addHeader("Content-Type", "application/json");
+				postReq.addHeader("Authorization", "dmVudWdvcGFsa2FkaXJpfHZlbnVnb3BhbC5rYWRpcmlAY2lnbml0aS5jb206MTU0NDYyNjgxNTEyNjplNThkNDYzZmFiMzI3ZTRhOGNiZTkzOGU5YTExMDAwNQ=");
+				
+				//using NameValuePairt to send body data
+				List<NameValuePair> pairs = new ArrayList<NameValuePair>();
+				pairs.add(new BasicNameValuePair("exe_start_date", "2017-12-12T10:40:50+00:00"));
+				pairs.add(new BasicNameValuePair("exe_end_date", "2017-12-12T10:40:50+00:00"));
+				pairs.add(new BasicNameValuePair("test_case_version_id", "19960954"));
+				pairs.add(new BasicNameValuePair("status", Integer.toString(601)));
+				postReq.setEntity(new UrlEncodedFormEntity(pairs));
+				
+				//using JSON object to send body data
+				Integer s = 601;
+				String s1 = "601";				
+				JSONObject jj = new JSONObject();
+				jj.put("exe_start_date","2017-12-12T10:40:50+00:00");
+				jj.put("exe_end_date","2017-12-12T10:40:50+00:00");
+				jj.put("test_case_version_id","19960954");
+				jj.put("status",Integer.parseInt(s1.trim()));				
+				StringEntity entityForPost = new StringEntity(jj.toString());				
+				postReq.setEntity(entityForPost);
+				
+				HttpResponse response3 = httpClient3.execute(postReq);
+							
+				if (response3.getStatusLine().getStatusCode() != 201) {
+					throw new RuntimeException("Failed : HTTP error code : "
+					   + response3.getStatusLine().getStatusCode());
+				}				
+				
+				httpClient3.getConnectionManager().shutdown();*/
+			 
+			 
+			 
+			//QA Complete
+			 
 			//POST
 			 DefaultHttpClient httpClient1 = new DefaultHttpClient();
 			HttpPost postReq = new HttpPost(
@@ -70,7 +187,14 @@ public class API {
 			
 			List<NameValuePair> pairs = new ArrayList<NameValuePair>();
 			pairs.add(new BasicNameValuePair("TestId", "5120088"));
-			postReq.setEntity(new UrlEncodedFormEntity(pairs ));			
+			postReq.setEntity(new UrlEncodedFormEntity(pairs ));	
+			
+			/*//JSON
+			JSONObject jj1 = new JSONObject();
+			jj1.put("TestId","5120088");							
+			StringEntity entityForPost = new StringEntity(jj1.toString());				
+			postReq.setEntity(entityForPost);*/
+			
 			HttpResponse response1 = httpClient1.execute(postReq);
 						
 			if (response1.getStatusLine().getStatusCode() != 200) {
@@ -153,19 +277,26 @@ public class API {
 			HttpPatch patchReq = new HttpPatch(
 					"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/"+TestId1+"/items/"+TestId2);
 			patchReq.addHeader("accept", "application/json");
+			patchReq.addHeader("Content-Type", "application/json");
 			patchReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
 			
 			List<NameValuePair> pairs1 = new ArrayList<NameValuePair>();
-			pairs1.add(new BasicNameValuePair("StatusCode", "Failed"));
+			pairs1.add(new BasicNameValuePair("StatusCode", "Passed"));
 			
-			List<NameValuePair> pairs2 = new ArrayList<NameValuePair>();
+			/*List<NameValuePair> pairs2 = new ArrayList<NameValuePair>();
 			pairs2.add(new BasicNameValuePair("StepName", "step1"));
-			pairs2.add(new BasicNameValuePair("StatusCode", "Failed"));
+			pairs2.add(new BasicNameValuePair("StatusCode", "Failed"))*/;
 			
-			patchReq.setEntity(new UrlEncodedFormEntity(pairs1));
-			patchReq.setEntity(new UrlEncodedFormEntity(pairs2));
+			
+			//JSON
+			JSONObject jj = new JSONObject();
+			jj.put("StatusCode","Passed");							
+			StringEntity entityForPost1 = new StringEntity(jj.toString());				
+			patchReq.setEntity(entityForPost1);
+			
+			//patchReq.setEntity(new UrlEncodedFormEntity(pairs1));
+			//patchReq.setEntity(new UrlEncodedFormEntity(pairs2));
 			HttpResponse response3 = httpClient3.execute(patchReq);
-			
 			
 			
 			if (response3.getStatusLine().getStatusCode() != 200) {
