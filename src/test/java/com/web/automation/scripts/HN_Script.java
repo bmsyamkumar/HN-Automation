@@ -108,7 +108,7 @@ public class HN_Script extends TestEngineWeb {
 				HN.HN_OrderItem();
 				
 				//Post execution status to QA Complete
-				HN.PostInQAComplete("Failed");
+				HN.PostInQAComplete("Passed");
 				
 				//Post execution status to qTest Manager
 				HN.PostInQTest("Passed");
