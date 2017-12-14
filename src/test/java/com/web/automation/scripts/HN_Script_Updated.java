@@ -110,20 +110,20 @@ public class HN_Script_Updated extends TestEngineWeb {
 		}
 	}
 	
-	@Test(description = "purchase order online", groups = { "smoke", "regression" })
+	@Test(description = "purchase order online", groups = {"Demo"})
 	public void HN_Script_Execution() throws Throwable {
 		try {	
 			
 			
 			
-				//
-				//HN.HN_OrderItem();
+				//Order an item 
+				HN.HN_OrderItem();
 				
 				//Post execution status to QA Complete
 				HN.PostInQAComplete("Passed");
 				
 				//Post execution status to qTest Manager
-				//HN.PostInQTest("Passed");
+				HN.PostInQTest("Passed");
 				
 				//Test
 				
@@ -133,7 +133,7 @@ public class HN_Script_Updated extends TestEngineWeb {
 			HN.PostInQAComplete("Failed");
 			
 			//Post execution status to qTest Manager
-			//HN.PostInQTest("Failed");
+			HN.PostInQTest("Failed");
 			
 			testCaseFailureReason = "Failed to execute Mac book order script ";
 			String stackTrace = extenLogs.getStackTraceAsString("Test", testCaseFailureReason, e);

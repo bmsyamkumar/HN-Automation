@@ -324,9 +324,20 @@ public class HN_Pages_Updated extends BasePage {
 
 	public void PostInQTest(String strStatus) throws Throwable {
 		
+		Properties config_prop = new Properties();
+		try{
+			FileReader reader;
+			reader = new FileReader("config.properties");
+			config_prop.load(reader);
+		} catch (IOException e) {
+			System.out.println("Failed to fetch/read 'config.properties' file.");
+		}
+		
+		
 		DefaultHttpClient httpClient3 = new DefaultHttpClient();
-		HttpPost postReq = new HttpPost(
-				"https://venugopalkadiri.qtestnet.com/api/v3/projects/64875/test-runs/29562565/test-logs");
+		/*HttpPost postReq = new HttpPost(
+				"https://venugopalkadiri.qtestnet.com/api/v3/projects/64875/test-runs/29562565/test-logs");*/
+		HttpPost postReq = new HttpPost(config_prop.getProperty("qTest_API")+ "projects/" + config_prop.getProperty("qTest_Project")+ "/test-runs/" +config_prop.getProperty("qTest_TestRunId") + "/test-logs");
 		postReq.addHeader("accept", "application/json");
 		postReq.addHeader("Content-Type", "application/json");
 		postReq.addHeader("Authorization", "dmVudWdvcGFsa2FkaXJpfHZlbnVnb3BhbC5rYWRpcmlAY2lnbml0aS5jb206MTU0NDYyNjgxNTEyNjplNThkNDYzZmFiMzI3ZTRhOGNiZTkzOGU5YTExMDAwNQ=");
@@ -345,7 +356,7 @@ public class HN_Pages_Updated extends BasePage {
 		JSONObject jj = new JSONObject();
 		jj.put("exe_start_date","2017-12-12T10:40:50+00:00");
 		jj.put("exe_end_date","2017-12-12T10:40:50+00:00");
-		jj.put("test_case_version_id","19960954");
+		jj.put("test_case_version_id",config_prop.getProperty("qTest_TestId"));
 		jj.put("status",Integer.parseInt(s1.trim()));				
 		StringEntity entityForPost = new StringEntity(jj.toString());				
 		postReq.setEntity(entityForPost);

@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Selenium-Automation]">
-  <listeners>
-    <listener class-name="com.web.automation.listeners.ExecutionListener"/>
-  </listeners>
-  <test name="Test-Login-Chrome(failed)">
-    <parameter name="cloudExecution" value="false"/>
-    <parameter name="environment" value="dev"/>
-    <parameter name="browser" value="chrome"/>
-    <parameter name="userRegion" value="US"/>
-    <parameter name="emailReport" value="false"/>
-    <parameter name="version" value="54"/>
-    <parameter name="platform" value="windows"/>
-    <parameter name="seleniumGrid" value="false"/>
-    <groups>
-      <run>
-        <include name="smoke"/>
-        <include name="regression"/>
-      </run>
-    </groups>
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.web.automation.scripts.HN_Script_Updated">
         <methods>
@@ -35,5 +18,5 @@
         </methods>
       </class> <!-- com.web.automation.scripts.HN_Script_Updated -->
     </classes>
-  </test> <!-- Test-Login-Chrome(failed) -->
-</suite> <!-- Failed suite [Selenium-Automation] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
