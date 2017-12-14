@@ -125,7 +125,6 @@ public class HN_Script_Updated extends TestEngineWeb {
 				//Post execution status to qTest Manager
 				HN.PostInQTest("Passed");
 				
-				//Test
 				
 		}catch (Exception e) {
 			
