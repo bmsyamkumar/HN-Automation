@@ -38,12 +38,14 @@ import org.w3c.dom.Document;
 import com.web.automation.accelerators.ActionsLibrary;
 import com.web.automation.accelerators.TestEngineWeb;
 import com.web.automation.fileutils.XMLUtils;
-import com.web.automation.pages.HN_Pages;
+import com.web.automation.pages.HN_Pages_Updated;
 import com.web.automation.utilities.CommonVariables;
 import com.web.automation.utilities.RandomTextUtils;
+import org.apache.commons.codec.binary.Base64;
 
 
-public class HN_Pages extends BasePage {
+
+public class HN_Pages_Updated extends BasePage {
 
 	public EventFiringWebDriver driver;
 	public ExtentLogs extentLogs = new ExtentLogs();
@@ -70,7 +72,7 @@ public class HN_Pages extends BasePage {
 		public String ErrorMsg;
 		
 	
-	public HN_Pages(WebDriver driver) {
+	public HN_Pages_Updated(WebDriver driver) {
 		super(driver);
 	}
 
@@ -147,19 +149,39 @@ public class HN_Pages extends BasePage {
 
 	public void PostInQAComplete(String strStatus) throws Throwable {
 		
+		
+		Properties config_prop = new Properties();
+		try{
+			FileReader reader;
+			reader = new FileReader("config.properties");
+			config_prop.load(reader);
+		} catch (IOException e) {
+			System.out.println("Failed to fetch/read 'config.properties' file.");
+		}
+		
 		//POST
 		 DefaultHttpClient httpClient1 = new DefaultHttpClient();
 		 
 		 
-		HttpPost postReq = new HttpPost(
-				//"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns");
-				"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106864/testruns");
+		 HttpPost postReq = new HttpPost(config_prop.getProperty("QAC_API")+"projects/" + config_prop.getProperty("QAC_Project") + "/testruns");
+		 
+		 String AuthString1 = config_prop.getProperty("QAC_UN") + ":" + config_prop.getProperty("QAC_PWD");
+		 byte[] encodedAuthString1 = Base64.encodeBase64(AuthString1.getBytes());
+		 		 
+		 postReq.addHeader("accept", "application/json");
+		 postReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
+		 
+		 List<NameValuePair> pairs = new ArrayList<NameValuePair>();
+		 pairs.add(new BasicNameValuePair("TestId", config_prop.getProperty("QAC_TestId")));
+		 
+		 
+		/*HttpPost postReq = new HttpPost(
+				"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns");
 		postReq.addHeader("accept", "application/json");
-		postReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
+		postReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");*/
 		
-		List<NameValuePair> pairs = new ArrayList<NameValuePair>();
+		//List<NameValuePair> pairs = new ArrayList<NameValuePair>();
 		//pairs.add(new BasicNameValuePair("TestId", "5120088"));
-		pairs.add(new BasicNameValuePair("TestId", "5116452"));
 		postReq.setEntity(new UrlEncodedFormEntity(pairs ));
 		
 		HttpResponse response1 = httpClient1.execute(postReq);
@@ -200,11 +222,19 @@ public class HN_Pages extends BasePage {
 		//GET
 		DefaultHttpClient httpClient2 = new DefaultHttpClient();
 		
-		HttpGet getRequest = new HttpGet(
-		//"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/" + TestId1 + "/items");
-		"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106864/testruns/" + TestId1 + "/items");
+		HttpGet getRequest = new HttpGet(config_prop.getProperty("QAC_API")+"projects/" + config_prop.getProperty("QAC_Project") + "/testruns/" + TestId1 + "/items");
+		 
+		 String AuthString2 = config_prop.getProperty("QAC_UN") + ":" + config_prop.getProperty("QAC_PWD");
+		 byte[] encodedAuthString2 = Base64.encodeBase64(AuthString2.getBytes());
+		 		 
+		 getRequest.addHeader("accept", "application/json");
+		 getRequest.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
+		 
+		 		 
+		/*HttpGet getRequest = new HttpGet(
+		"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/" + TestId1 + "/items");
 		getRequest.addHeader("accept", "application/json");
-		getRequest.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
+		getRequest.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");*/
 		HttpResponse response2 = httpClient2.execute(getRequest);
 		
 		if (response2.getStatusLine().getStatusCode() != 200) {
@@ -241,12 +271,20 @@ public class HN_Pages extends BasePage {
 		
 		//PATCH
 		DefaultHttpClient httpClient3 = new DefaultHttpClient();
-		HttpPatch patchReq = new HttpPatch(
-				//"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/"+TestId1+"/items/"+TestId2);
-				"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106864/testruns/"+TestId1+"/items/"+TestId2);
+		
+		HttpPatch patchReq = new HttpPatch(config_prop.getProperty("QAC_API") + "projects/" + config_prop.getProperty("QAC_Project")+"/testruns/"+TestId1+"/items/"+TestId2);
+		String AuthString3 = config_prop.getProperty("QAC_UN") + ":" + config_prop.getProperty("QAC_PWD");
+		 byte[] encodedAuthString3 = Base64.encodeBase64(AuthString3.getBytes());
+		 		 
+		 patchReq.addHeader("accept", "application/json");
+		 patchReq.addHeader("Content-Type", "application/json");
+		 patchReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
+		 
+		/*HttpPatch patchReq = new HttpPatch(
+				"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/"+TestId1+"/items/"+TestId2);
 		patchReq.addHeader("accept", "application/json");
 		patchReq.addHeader("Content-Type", "application/json");
-		patchReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
+		patchReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");*/
 		
 		//JSON
 		JSONObject jj = new JSONObject();
@@ -288,8 +326,7 @@ public class HN_Pages extends BasePage {
 		
 		DefaultHttpClient httpClient3 = new DefaultHttpClient();
 		HttpPost postReq = new HttpPost(
-				//"https://venugopalkadiri.qtestnet.com/api/v3/projects/64875/test-runs/29562565/test-logs");
-				"https://venugopalkadiri.qtestnet.com/api/v3/projects/65179/test-runs/29753882/test-logs");
+				"https://venugopalkadiri.qtestnet.com/api/v3/projects/64875/test-runs/29562565/test-logs");
 		postReq.addHeader("accept", "application/json");
 		postReq.addHeader("Content-Type", "application/json");
 		postReq.addHeader("Authorization", "dmVudWdvcGFsa2FkaXJpfHZlbnVnb3BhbC5rYWRpcmlAY2lnbml0aS5jb206MTU0NDYyNjgxNTEyNjplNThkNDYzZmFiMzI3ZTRhOGNiZTkzOGU5YTExMDAwNQ=");
@@ -308,7 +345,7 @@ public class HN_Pages extends BasePage {
 		JSONObject jj = new JSONObject();
 		jj.put("exe_start_date","2017-12-12T10:40:50+00:00");
 		jj.put("exe_end_date","2017-12-12T10:40:50+00:00");
-		jj.put("test_case_version_id","19996682");
+		jj.put("test_case_version_id","19960954");
 		jj.put("status",Integer.parseInt(s1.trim()));				
 		StringEntity entityForPost = new StringEntity(jj.toString());				
 		postReq.setEntity(entityForPost);

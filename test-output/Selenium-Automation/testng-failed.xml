@@ -20,20 +20,20 @@
       </run>
     </groups>
     <classes>
-      <class name="com.web.automation.scripts.HN_Script">
+      <class name="com.web.automation.scripts.HN_Script_Updated">
         <methods>
           <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+          <include name="HN_Script_Execution"/>
           <include name="beforeSuite"/>
           <include name="afterTest"/>
-          <include name="beforeMethod"/>
           <include name="beforeTest"/>
           <include name="afterClass"/>
           <include name="beforeClass"/>
           <include name="beforeMethod"/>
-          <include name="HN_Script_Execution"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.web.automation.scripts.HN_Script -->
+      </class> <!-- com.web.automation.scripts.HN_Script_Updated -->
     </classes>
   </test> <!-- Test-Login-Chrome(failed) -->
 </suite> <!-- Failed suite [Selenium-Automation] -->
