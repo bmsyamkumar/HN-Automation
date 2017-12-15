@@ -117,7 +117,7 @@ public class HN_Script_Updated extends TestEngineWeb {
 			
 			
 				//Order an item 
-				HN.HN_OrderItem();
+				//HN.HN_OrderItem();
 				
 				//Post execution status to QA Complete
 				HN.PostInQAComplete("Passed");
