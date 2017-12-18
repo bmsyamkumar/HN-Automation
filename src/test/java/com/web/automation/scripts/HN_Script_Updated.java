@@ -122,9 +122,7 @@ public class HN_Script_Updated extends TestEngineWeb {
         String stTIme = words1[0]+"T"+words1[1]+"+00:00";
         
         
-		try {	
-			
-				
+		try {		
 			
 				//Order an item 
 				HN.HN_OrderItem();
