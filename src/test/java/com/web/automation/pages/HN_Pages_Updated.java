@@ -77,7 +77,9 @@ public class HN_Pages_Updated extends BasePage {
 	public HN_Pages_Updated(WebDriver driver) {
 		super(driver);
 	}
-
+	
+	
+	
 	public void HN_OrderItem() throws Throwable {
 		try {
 			extentLogs.info("HN Portal ", "HN Portal - Launched");
@@ -163,8 +165,6 @@ public class HN_Pages_Updated extends BasePage {
 		
 		//POST
 		 DefaultHttpClient httpClient1 = new DefaultHttpClient();
-		 
-		 
 		 HttpPost postReq = new HttpPost(config_prop.getProperty("QAC_API")+"projects/" + config_prop.getProperty("QAC_Project") + "/testruns");
 		 
 		 String AuthString1 = config_prop.getProperty("QAC_UN") + ":" + config_prop.getProperty("QAC_PWD");
@@ -187,7 +187,8 @@ public class HN_Pages_Updated extends BasePage {
 		postReq.setEntity(new UrlEncodedFormEntity(pairs ));
 		
 		HttpResponse response1 = httpClient1.execute(postReq);
-					
+		
+		//Validate the response
 		if (response1.getStatusLine().getStatusCode() != 200) {
 			throw new RuntimeException("Failed : HTTP error code : "
 			   + response1.getStatusLine().getStatusCode());
@@ -213,10 +214,7 @@ public class HN_Pages_Updated extends BasePage {
 		
 		//JSONObject jobj1_1 = (JSONObject)jarray1.get(0);
 		Long TestId1 = (Long) jobj1.get("id");
-		
-		
 		System.out.println(TestId1);
-		
 		
 		httpClient1.getConnectionManager().shutdown();
 		
@@ -231,7 +229,6 @@ public class HN_Pages_Updated extends BasePage {
 		 		 
 		 getRequest.addHeader("accept", "application/json");
 		 getRequest.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
-		 
 		 		 
 		/*HttpGet getRequest = new HttpGet(
 		"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/" + TestId1 + "/items");
@@ -239,6 +236,7 @@ public class HN_Pages_Updated extends BasePage {
 		getRequest.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");*/
 		HttpResponse response2 = httpClient2.execute(getRequest);
 		
+		//Validate the response
 		if (response2.getStatusLine().getStatusCode() != 200) {
 			throw new RuntimeException("Failed : HTTP error code : "
 			   + response2.getStatusLine().getStatusCode());
@@ -255,8 +253,6 @@ public class HN_Pages_Updated extends BasePage {
 			stringBuilder2.append(output2);
 		}
 		String result2 = stringBuilder2.toString();
-		
-		
 		
 			
 		JSONParser parse = new JSONParser();
@@ -303,6 +299,7 @@ public class HN_Pages_Updated extends BasePage {
 		
 		HttpResponse response3 = httpClient3.execute(patchReq);
 		
+		//Validate the response
 		if (response3.getStatusLine().getStatusCode() != 200) {
 			throw new RuntimeException("Failed : HTTP error code : "
 			   + response3.getStatusLine().getStatusCode());
@@ -372,7 +369,8 @@ public class HN_Pages_Updated extends BasePage {
 		postReq.setEntity(entityForPost);
 		
 		HttpResponse response3 = httpClient3.execute(postReq);
-					
+		
+		//Validate the response
 		if (response3.getStatusLine().getStatusCode() != 201) {
 			throw new RuntimeException("Failed : HTTP error code : "
 			   + response3.getStatusLine().getStatusCode());
