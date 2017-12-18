@@ -4,7 +4,9 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Properties;
 import javax.xml.transform.TransformerException;
@@ -112,9 +114,17 @@ public class HN_Script_Updated extends TestEngineWeb {
 	
 	@Test(description = "purchase order online", groups = {"Demo"})
 	public void HN_Script_Execution() throws Throwable {
+		
+		//Capture the start time to report in qTest			
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String string1  = dateFormat.format(new Date());
+        String[] words1=string1.split("\\s");
+        String stTIme = words1[0]+"T"+words1[1]+"+00:00";
+        
+        
 		try {	
 			
-			
+				
 			
 				//Order an item 
 				HN.HN_OrderItem();
@@ -123,7 +133,7 @@ public class HN_Script_Updated extends TestEngineWeb {
 				HN.PostInQAComplete("Passed");
 				
 				//Post execution status to qTest Manager
-				HN.PostInQTest("Passed");
+				HN.PostInQTest(stTIme,"Passed");
 								
 		}catch (Exception e) {
 			
@@ -131,7 +141,7 @@ public class HN_Script_Updated extends TestEngineWeb {
 			HN.PostInQAComplete("Failed");
 			
 			//Post execution status to qTest Manager
-			HN.PostInQTest("Failed");
+			HN.PostInQTest(stTIme,"Failed");
 			
 			testCaseFailureReason = "Failed to execute Mac book order script ";
 			String stackTrace = extenLogs.getStackTraceAsString("Test", testCaseFailureReason, e);

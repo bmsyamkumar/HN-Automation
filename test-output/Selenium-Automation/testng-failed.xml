@@ -15,8 +15,7 @@
     <parameter name="seleniumGrid" value="false"/>
     <groups>
       <run>
-        <include name="smoke"/>
-        <include name="regression"/>
+        <include name="Demo"/>
       </run>
     </groups>
     <classes>

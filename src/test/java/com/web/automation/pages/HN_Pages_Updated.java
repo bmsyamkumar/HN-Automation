@@ -3,7 +3,9 @@ package com.web.automation.pages;
 //import java.awt.List;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Set;
 import java.util.List;
 import org.apache.http.HttpResponse;
@@ -322,7 +324,7 @@ public class HN_Pages_Updated extends BasePage {
 		
 	}
 
-	public void PostInQTest(String strStatus) throws Throwable {
+	public void PostInQTest(String stTime, String strStatus) throws Throwable {
 		
 		Properties config_prop = new Properties();
 		try{
@@ -352,10 +354,18 @@ public class HN_Pages_Updated extends BasePage {
 		{
 			s1 = "602";	
 		}
+		
+		 SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String string1  = dateFormat.format(new Date());
+        String[] words1=string1.split("\\s");
+        String endTIme = words1[0]+"T"+words1[1]+"+00:00";
+	        
 					
 		JSONObject jj = new JSONObject();
-		jj.put("exe_start_date","2017-12-12T10:40:50+00:00");
-		jj.put("exe_end_date","2017-12-12T10:40:50+00:00");
+		/*jj.put("exe_start_date","2017-12-12T10:40:50+00:00");
+		jj.put("exe_end_date","2017-12-12T10:40:50+00:00");*/
+		jj.put("exe_start_date",stTime);
+		jj.put("exe_end_date",endTIme);
 		jj.put("test_case_version_id",config_prop.getProperty("qTest_TestId"));
 		jj.put("status",Integer.parseInt(s1.trim()));				
 		StringEntity entityForPost = new StringEntity(jj.toString());				

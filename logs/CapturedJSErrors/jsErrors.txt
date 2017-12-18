@@ -9547,3 +9547,5 @@ Wed Dec 13 13:55:33 IST 2017 SEVERE javascript 1:353 Uncaught ReferenceError: PA
 Wed Dec 13 13:56:00 IST 2017 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
 Wed Dec 13 13:56:11 IST 2017 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
 Wed Dec 13 13:56:30 IST 2017 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
+Mon Dec 18 12:16:49 IST 2017 SEVERE https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html - Failed to load resource: net::ERR_CONNECTION_CLOSED
+Mon Dec 18 12:16:49 IST 2017 SEVERE https://script.hotjar.com/modules-526d80f8c01454f84b75838f21c8706e.js - Failed to load resource: net::ERR_CONNECTION_CLOSED
