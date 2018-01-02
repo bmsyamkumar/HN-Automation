@@ -171,7 +171,8 @@ public class HN_Pages_Updated extends BasePage {
 		 byte[] encodedAuthString1 = Base64.encodeBase64(AuthString1.getBytes());
 		 		 
 		 postReq.addHeader("accept", "application/json");
-		 postReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
+		 //postReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
+		 postReq.addHeader("Authorization", "Basic anlvdGhpLnNhbmt1QGNpZ25pdGkuY29tOkp5b3RoaUAzMjE=");
 		 
 		 List<NameValuePair> pairs = new ArrayList<NameValuePair>();
 		 pairs.add(new BasicNameValuePair("TestId", config_prop.getProperty("QAC_TestId")));
@@ -228,8 +229,9 @@ public class HN_Pages_Updated extends BasePage {
 		 byte[] encodedAuthString2 = Base64.encodeBase64(AuthString2.getBytes());
 		 		 
 		 getRequest.addHeader("accept", "application/json");
-		 getRequest.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
-		 		 
+		 //getRequest.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
+		 getRequest.addHeader("Authorization", "Basic anlvdGhpLnNhbmt1QGNpZ25pdGkuY29tOkp5b3RoaUAzMjE=");
+		 
 		/*HttpGet getRequest = new HttpGet(
 		"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/" + TestId1 + "/items");
 		getRequest.addHeader("accept", "application/json");
@@ -276,7 +278,8 @@ public class HN_Pages_Updated extends BasePage {
 		 		 
 		 patchReq.addHeader("accept", "application/json");
 		 patchReq.addHeader("Content-Type", "application/json");
-		 patchReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
+		 //patchReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
+		 patchReq.addHeader("Authorization", "Basic anlvdGhpLnNhbmt1QGNpZ25pdGkuY29tOkp5b3RoaUAzMjE=");
 		 
 		/*HttpPatch patchReq = new HttpPatch(
 				"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/"+TestId1+"/items/"+TestId2);
@@ -339,7 +342,8 @@ public class HN_Pages_Updated extends BasePage {
 		HttpPost postReq = new HttpPost(config_prop.getProperty("qTest_API")+ "projects/" + config_prop.getProperty("qTest_Project")+ "/test-runs/" +config_prop.getProperty("qTest_TestRunId") + "/test-logs");
 		postReq.addHeader("accept", "application/json");
 		postReq.addHeader("Content-Type", "application/json");
-		postReq.addHeader("Authorization", "dmVudWdvcGFsa2FkaXJpfHZlbnVnb3BhbC5rYWRpcmlAY2lnbml0aS5jb206MTU0NDYyNjgxNTEyNjplNThkNDYzZmFiMzI3ZTRhOGNiZTkzOGU5YTExMDAwNQ=");
+		//postReq.addHeader("Authorization", "dmVudWdvcGFsa2FkaXJpfHZlbnVnb3BhbC5rYWRpcmlAY2lnbml0aS5jb206MTU0NDYyNjgxNTEyNjplNThkNDYzZmFiMzI3ZTRhOGNiZTkzOGU5YTExMDAwNQ=");
+		postReq.addHeader("Authorization", "Y2lnbml0aXRlc3R8anlvdGhpLnNhbmt1QGNpZ25pdGkuY29tOjE1NDY0MTYxNzgzMjc6Mzk1ODgyZjJmYmUxN2RiNGU5ZjJjNzlhN2QxYTdmZDQ=");
 		
 		
 		//using JSON object to send body data

@@ -9549,3 +9549,46 @@ Wed Dec 13 13:56:11 IST 2017 SEVERE https://www.harveynorman.com.au/tnspay/form/
 Wed Dec 13 13:56:30 IST 2017 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
 Mon Dec 18 12:16:49 IST 2017 SEVERE https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html - Failed to load resource: net::ERR_CONNECTION_CLOSED
 Mon Dec 18 12:16:49 IST 2017 SEVERE https://script.hotjar.com/modules-526d80f8c01454f84b75838f21c8706e.js - Failed to load resource: net::ERR_CONNECTION_CLOSED
+Tue Jan 02 13:20:33 IST 2018 SEVERE https://connect.facebook.net/en_US/fbevents.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 13:21:12 IST 2018 SEVERE https://connect.facebook.net/en_US/sdk.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 13:21:12 IST 2018 SEVERE https://www.facebook.com/plugins/like.php?ref=LiveChat&href=http%3A%2F%2Fwww.facebook.com%2FHarveyNormanAU&layout=button_count&show_faces=false&width=130&action=like&font=trebuchet+ms&colorscheme=light&height=20 - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 13:21:50 IST 2018 SEVERE https://connect.facebook.net/en_US/fbevents.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 13:21:57 IST 2018 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 1007:0 Uncaught ReferenceError: HN_PAGE_INFO is not defined
+Tue Jan 02 13:21:57 IST 2018 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 936:10 Uncaught ReferenceError: IMG_PLACEHOLDER is not defined
+Tue Jan 02 13:22:24 IST 2018 SEVERE https://connect.facebook.net/en_US/fbevents.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 13:22:56 IST 2018 SEVERE https://connect.facebook.net/en_US/fbevents.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 13:23:00 IST 2018 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Tue Jan 02 13:23:28 IST 2018 SEVERE https://connect.facebook.net/en_US/fbevents.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 13:23:33 IST 2018 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Tue Jan 02 13:23:39 IST 2018 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
+Tue Jan 02 13:24:06 IST 2018 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
+Tue Jan 02 16:28:34 IST 2018 SEVERE https://connect.facebook.net/en_US/fbevents.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:28:42 IST 2018 SEVERE https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:28:42 IST 2018 SEVERE https://script.hotjar.com/modules-526d80f8c01454f84b75838f21c8706e.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:30:20 IST 2018 SEVERE https://connect.facebook.net/en_US/sdk.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:44:21 IST 2018 SEVERE https://connect.facebook.net/en_US/fbevents.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:44:22 IST 2018 SEVERE https://script.hotjar.com/modules-526d80f8c01454f84b75838f21c8706e.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:45:01 IST 2018 SEVERE https://connect.facebook.net/en_US/fbevents.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:45:26 IST 2018 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 1007:0 Uncaught ReferenceError: HN_PAGE_INFO is not defined
+Tue Jan 02 16:45:26 IST 2018 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 936:10 Uncaught ReferenceError: IMG_PLACEHOLDER is not defined
+Tue Jan 02 16:46:25 IST 2018 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Tue Jan 02 16:49:36 IST 2018 SEVERE https://static.hotjar.com/c/hotjar-307812.js?sv=5 - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:49:36 IST 2018 SEVERE https://connect.facebook.net/en_US/fbevents.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:50:12 IST 2018 SEVERE https://connect.facebook.net/en_US/sdk.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:50:12 IST 2018 SEVERE https://www.facebook.com/plugins/like.php?ref=LiveChat&href=http%3A%2F%2Fwww.facebook.com%2FHarveyNormanAU&layout=button_count&show_faces=false&width=130&action=like&font=trebuchet+ms&colorscheme=light&height=20 - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:50:52 IST 2018 SEVERE https://static.hotjar.com/c/hotjar-307812.js?sv=5 - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:50:52 IST 2018 SEVERE https://connect.facebook.net/en_US/fbevents.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:50:57 IST 2018 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 1007:0 Uncaught ReferenceError: HN_PAGE_INFO is not defined
+Tue Jan 02 16:50:57 IST 2018 SEVERE https://d2ajw2y8psv396.cloudfront.net/promos/js/1442537353.js 936:10 Uncaught ReferenceError: IMG_PLACEHOLDER is not defined
+Tue Jan 02 16:51:42 IST 2018 SEVERE https://static.hotjar.com/c/hotjar-307812.js?sv=5 - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:53:03 IST 2018 SEVERE https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:53:03 IST 2018 SEVERE https://script.hotjar.com/modules-526d80f8c01454f84b75838f21c8706e.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:53:06 IST 2018 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Tue Jan 02 16:54:07 IST 2018 SEVERE https://script.hotjar.com/modules-526d80f8c01454f84b75838f21c8706e.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:54:07 IST 2018 SEVERE https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:54:37 IST 2018 SEVERE https://script.hotjar.com/modules-526d80f8c01454f84b75838f21c8706e.js - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:54:37 IST 2018 SEVERE https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:54:37 IST 2018 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Tue Jan 02 16:54:41 IST 2018 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
+Tue Jan 02 16:55:30 IST 2018 SEVERE https://static.hotjar.com/c/hotjar-307812.js?sv=5 - Failed to load resource: net::ERR_TIMED_OUT
+Tue Jan 02 16:55:30 IST 2018 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
