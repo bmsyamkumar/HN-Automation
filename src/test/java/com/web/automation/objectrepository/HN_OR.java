@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 public class HN_OR {
 
-	//LOGIN
+	//LOGINnn
 	
 	public static By CompsAndTabs = By.xpath("//*[@id='navMdList']/ul/li[3]/a");
 	public static By MacTab = By.xpath("//*[@id='navMdContent']/div/div[1]/div[2]/ul[2]/li[1]/a");
