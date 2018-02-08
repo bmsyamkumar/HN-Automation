@@ -20,8 +20,8 @@
 		<parameter name="emailReport" value="false" />
 		<groups>
 			<run>
-				<include name="Demo" />
-				<include name="Demo1" />					
+				<include name="smoke"/>
+				<include name="regression"/>					
 			</run>
 		</groups>
 		<classes>					

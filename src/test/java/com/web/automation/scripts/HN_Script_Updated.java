@@ -112,7 +112,7 @@ public class HN_Script_Updated extends TestEngineWeb {
 		}
 	}
 	
-	@Test(description = "purchase order online", groups = {"Demo"})
+	@Test(description = "Online - Purchase order", groups = {"smoke","regression"})
 	public void HN_Script_Execution() throws Throwable {
 		
 		//Capture the start time to report in qTest			
