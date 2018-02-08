@@ -9604,3 +9604,8 @@ Thu Feb 08 17:12:59 IST 2018 SEVERE javascript 1:353 Uncaught ReferenceError: PA
 Thu Feb 08 17:26:48 IST 2018 SEVERE https://dco.w55c.net/tracking/product/image/hnorman/268538 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
 Thu Feb 08 17:26:55 IST 2018 SEVERE https://www.pages07.net/WTS/event.jpeg?accesskey=54970b0-157d1876ab9-3a49a1d67881ef16e3bf2f68bd600905&v=1.3&isNewSession=0&type=pageview&isNewVisitor=0&sessionGUID=887c4516-81ec-6bcd-7457-e7ec82883550&webSyncID=29b5c2e9-31b4-10d5-d394-3d0d13e3c1d5&url=https%3A%2F%2Fwww.harveynorman.com.au%2Fapple-macbook-air-13-3-128gb.html&newSiteVisit=0&referringURL=https%3A%2F%2Fwww.harveynorman.com.au%2Fcomputers-tablets%2Fcomputers%2Fapple-mac-computers&hostname=www.harveynorman.com.au&pathname=%2Fapple-macbook-air-13-3-128gb.html&newPageVisit=1&eventKey=b882bec0-c02b-93e5-847c-4b726ca1e04d - Failed to load resource: net::ERR_CONNECTION_RESET
 Thu Feb 08 17:27:30 IST 2018 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Thu Feb 08 18:08:44 IST 2018 SEVERE https://dco.w55c.net/tracking/product/image/hnorman/268538 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+Thu Feb 08 18:09:07 IST 2018 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Thu Feb 08 18:09:34 IST 2018 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Thu Feb 08 18:09:39 IST 2018 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
+Thu Feb 08 18:09:58 IST 2018 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
