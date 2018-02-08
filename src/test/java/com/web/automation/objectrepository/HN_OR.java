@@ -12,7 +12,8 @@ public class HN_OR {
 
 	public static By PageHeading = By.xpath("//*[@class='page-heading']");
 
-	public static By AddtItemToCart = By.xpath("(//a[@class='name fn l_mgn-tb-sm l_dsp-blc'])[13]");
+	//public static By AddtItemToCart = By.xpath("(//a[@class='name fn l_mgn-tb-sm l_dsp-blc'])[13]");
+	public static By AddtItemToCart = By.xpath("(//a[@class='name fn l_mgn-tb-sm l_dsp-blc'])[14]");
 			
 	public static By AddCart = By.xpath("//*[@id='btn-add-to-cart']");
 

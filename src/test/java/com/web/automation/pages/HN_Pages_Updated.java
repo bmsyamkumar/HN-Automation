@@ -136,10 +136,10 @@ public class HN_Pages_Updated extends BasePage {
 				actionLib.Click(HN_OR.PlaceOrder,"PlaceOrder");				
 				Thread.sleep(9000);				
 				if(actionLib.isElementDisplayed(HN_OR.ErrorMessage)){					
-					extentLogs.pass("Place Order Error", "Order failed message successful displayed");
+					extentLogs.pass("Place Order Error", "Order failed message successfully displayed");
 					return;
 				}else{
-						extentLogs.fail("Place Order Error", "Order failed messagen not displayed");
+						extentLogs.fail("Place Order Error", "Order failed message not displayed");
 						return;
 					}	
 				
