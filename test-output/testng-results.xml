@@ -74,19 +74,19 @@
       <![CDATA[Completed executing method  :- TestEngineWeb.afterSuite]]>
     </line>
   </reporter-output>
-  <suite name="Selenium-Automation" duration-ms="120331" started-at="2018-02-08T10:01:55Z" finished-at="2018-02-08T10:03:55Z">
+  <suite name="Selenium-Automation" duration-ms="188116" started-at="2018-02-08T11:24:17Z" finished-at="2018-02-08T11:27:25Z">
     <groups>
       <group name="Demo">
         <method signature="HN_Script_Updated.HN_Script_Execution()[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="HN_Script_Execution" class="com.web.automation.scripts.HN_Script_Updated"/>
       </group> <!-- Demo -->
     </groups>
-    <test name="Test-Login-Chrome" duration-ms="120331" started-at="2018-02-08T10:01:55Z" finished-at="2018-02-08T10:03:55Z">
+    <test name="Test-Login-Chrome" duration-ms="188116" started-at="2018-02-08T11:24:17Z" finished-at="2018-02-08T11:27:25Z">
       <class name="com.web.automation.scripts.HN_Script_Updated">
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="beforeSuite" is-config="true" duration-ms="67" started-at="2018-02-08T15:31:55Z" finished-at="2018-02-08T15:31:55Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="beforeSuite" is-config="true" duration-ms="84" started-at="2018-02-08T16:54:17Z" finished-at="2018-02-08T16:54:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@30f4b1a6]]>
+                <![CDATA[org.testng.TestRunner@4248ed58]]>
               </value>
             </param>
           </params>
@@ -96,11 +96,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="beforeTest" is-config="true" duration-ms="1798" started-at="2018-02-08T15:31:55Z" finished-at="2018-02-08T15:31:57Z">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="beforeTest" is-config="true" duration-ms="1799" started-at="2018-02-08T16:54:17Z" finished-at="2018-02-08T16:54:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@30f4b1a6]]>
+                <![CDATA[org.testng.TestRunner@4248ed58]]>
               </value>
             </param>
           </params>
@@ -110,14 +110,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="beforeClass" is-config="true" duration-ms="27124" started-at="2018-02-08T15:31:57Z" finished-at="2018-02-08T15:32:24Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="beforeClass" is-config="true" duration-ms="16956" started-at="2018-02-08T16:54:19Z" finished-at="2018-02-08T16:54:36Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing method  :- TestEngineWeb.beforeClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="beforeMethod" is-config="true" duration-ms="953" started-at="2018-02-08T15:32:24Z" finished-at="2018-02-08T15:32:25Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="beforeMethod" is-config="true" duration-ms="1112" started-at="2018-02-08T16:54:36Z" finished-at="2018-02-08T16:54:37Z">
           <params>
             <param index="0">
               <value>
@@ -131,14 +131,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="beforeMethod" is-config="true" duration-ms="714" started-at="2018-02-08T15:32:25Z" finished-at="2018-02-08T15:32:26Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="beforeMethod" is-config="true" duration-ms="816" started-at="2018-02-08T16:54:37Z" finished-at="2018-02-08T16:54:38Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing method  :- HN_Script_Updated.beforeMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="HN_Script_Execution()[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="HN_Script_Execution" duration-ms="62716" started-at="2018-02-08T15:32:26Z" description="purchase order online" finished-at="2018-02-08T15:33:28Z">
+        <test-method status="FAIL" signature="HN_Script_Execution()[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="HN_Script_Execution" duration-ms="135887" started-at="2018-02-08T16:54:38Z" description="purchase order online" finished-at="2018-02-08T16:56:54Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Failed : HTTP error code : 403]]>
@@ -162,7 +162,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- HN_Script_Execution -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="afterMethod" is-config="true" duration-ms="1827" started-at="2018-02-08T15:33:28Z" finished-at="2018-02-08T15:33:30Z">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="afterMethod" is-config="true" duration-ms="2151" started-at="2018-02-08T16:56:54Z" finished-at="2018-02-08T16:56:56Z">
           <params>
             <param index="0">
               <value>
@@ -181,21 +181,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="afterClass" is-config="true" duration-ms="25087" started-at="2018-02-08T15:33:30Z" finished-at="2018-02-08T15:33:55Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="afterClass" is-config="true" duration-ms="29217" started-at="2018-02-08T16:56:56Z" finished-at="2018-02-08T16:57:25Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing method  :- TestEngineWeb.afterClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="afterTest" is-config="true" duration-ms="16" started-at="2018-02-08T15:33:55Z" finished-at="2018-02-08T15:33:55Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="afterTest" is-config="true" duration-ms="102" started-at="2018-02-08T16:57:25Z" finished-at="2018-02-08T16:57:25Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing method  :- TestEngineWeb.afterTest]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="afterSuite" is-config="true" duration-ms="327" started-at="2018-02-08T15:33:55Z" finished-at="2018-02-08T15:33:56Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.web.automation.scripts.HN_Script_Updated@3901d134]" name="afterSuite" is-config="true" duration-ms="810" started-at="2018-02-08T16:57:26Z" finished-at="2018-02-08T16:57:27Z">
           <reporter-output>
             <line>
               <![CDATA[Completed executing method  :- TestEngineWeb.afterSuite]]>
