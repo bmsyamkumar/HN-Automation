@@ -98,7 +98,7 @@ public class HN_Pages_Updated extends BasePage {
 				actionLib.Click(HN_OR.Viewcart,"ViewCart");				
 				actionLib.waitForElementPresent(HN_OR.ShoppingCart,60);
 				
-				/*//Select pickup store and checkout
+				//Select pickup store and checkout
 				//actionLib.Click(HN_OR.PickInStore, "PickInStore");
 				actionLib.JSClick(HN_OR.PickInStore);
 				actionLib.type(HN_OR.EnterPostalCode, PostCode, "PostCode");				
@@ -134,7 +134,7 @@ public class HN_Pages_Updated extends BasePage {
 				
 				//Place order and validate error message
 				actionLib.Click(HN_OR.PlaceOrder,"PlaceOrder");				
-				Thread.sleep(9000);				*/
+				Thread.sleep(9000);				
 				if(actionLib.isElementDisplayed(HN_OR.ErrorMessage)){					
 					extentLogs.pass("Place Order Error", "Order failed message successfully displayed");
 					return;
