@@ -9609,3 +9609,8 @@ Thu Feb 08 18:09:07 IST 2018 SEVERE javascript 1:353 Uncaught ReferenceError: PA
 Thu Feb 08 18:09:34 IST 2018 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
 Thu Feb 08 18:09:39 IST 2018 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
 Thu Feb 08 18:09:58 IST 2018 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
+Fri Feb 09 18:14:31 IST 2018 SEVERE https://dco.w55c.net/tracking/product/image/hnorman/268538 - Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+Fri Feb 09 18:14:57 IST 2018 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Fri Feb 09 18:15:27 IST 2018 SEVERE javascript 1:353 Uncaught ReferenceError: PAGE_INFO is not defined
+Fri Feb 09 18:15:32 IST 2018 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined
+Fri Feb 09 18:15:48 IST 2018 SEVERE https://www.harveynorman.com.au/tnspay/form/index 15:11787 Uncaught ReferenceError: PAGE_INFO is not defined

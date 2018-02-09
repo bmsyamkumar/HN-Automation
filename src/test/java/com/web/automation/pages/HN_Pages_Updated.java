@@ -172,7 +172,7 @@ public class HN_Pages_Updated extends BasePage {
 		 		 
 		 postReq.addHeader("accept", "application/json");
 		 //postReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
-		 postReq.addHeader("Authorization", "Basic anlvdGhpLnNhbmt1QGNpZ25pdGkuY29tOkp5b3RoaUAzMjE=");
+		 postReq.addHeader("Authorization", "Basic c3JpdmFsbGkua2F0cmVkZGlAY2lnbml0aS5jb206Q2lnbml0aTEyMw==");
 		 
 		 List<NameValuePair> pairs = new ArrayList<NameValuePair>();
 		 pairs.add(new BasicNameValuePair("TestId", config_prop.getProperty("QAC_TestId")));
@@ -230,7 +230,7 @@ public class HN_Pages_Updated extends BasePage {
 		 		 
 		 getRequest.addHeader("accept", "application/json");
 		 //getRequest.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
-		 getRequest.addHeader("Authorization", "Basic anlvdGhpLnNhbmt1QGNpZ25pdGkuY29tOkp5b3RoaUAzMjE=");
+		 getRequest.addHeader("Authorization", "Basic c3JpdmFsbGkua2F0cmVkZGlAY2lnbml0aS5jb206Q2lnbml0aTEyMw==");
 		 
 		/*HttpGet getRequest = new HttpGet(
 		"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/" + TestId1 + "/items");
@@ -279,7 +279,8 @@ public class HN_Pages_Updated extends BasePage {
 		 patchReq.addHeader("accept", "application/json");
 		 patchReq.addHeader("Content-Type", "application/json");
 		 //patchReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
-		 patchReq.addHeader("Authorization", "Basic anlvdGhpLnNhbmt1QGNpZ25pdGkuY29tOkp5b3RoaUAzMjE=");
+		 //patchReq.addHeader("Authorization", "Basic anlvdGhpLnNhbmt1QGNpZ25pdGkuY29tOkp5b3RoaUAzMjE=");
+		 patchReq.addHeader("Authorization", "Basic c3JpdmFsbGkua2F0cmVkZGlAY2lnbml0aS5jb206Q2lnbml0aTEyMw==");
 		 
 		/*HttpPatch patchReq = new HttpPatch(
 				"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/"+TestId1+"/items/"+TestId2);
@@ -343,7 +344,7 @@ public class HN_Pages_Updated extends BasePage {
 		postReq.addHeader("accept", "application/json");
 		postReq.addHeader("Content-Type", "application/json");
 		//postReq.addHeader("Authorization", "dmVudWdvcGFsa2FkaXJpfHZlbnVnb3BhbC5rYWRpcmlAY2lnbml0aS5jb206MTU0NDYyNjgxNTEyNjplNThkNDYzZmFiMzI3ZTRhOGNiZTkzOGU5YTExMDAwNQ=");
-		postReq.addHeader("Authorization", "Y2lnbml0aXRlc3R8anlvdGhpLnNhbmt1QGNpZ25pdGkuY29tOjE1NDY0MTYxNzgzMjc6Mzk1ODgyZjJmYmUxN2RiNGU5ZjJjNzlhN2QxYTdmZDQ=");
+		postReq.addHeader("Authorization", "Y2lnbml0aTF8c3JpdmFsbGkua2F0cmVkZGlAY2lnbml0aS5jb206MTU0OTcwOTY1NDUxMjo4ZWU2OWNkNDFlOWQ5ZTI2MzlkNmRlZTU2MzNjYTgwNQ=");
 		
 		
 		//using JSON object to send body data
