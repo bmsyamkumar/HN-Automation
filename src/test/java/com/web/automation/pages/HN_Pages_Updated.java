@@ -84,10 +84,12 @@ public class HN_Pages_Updated extends BasePage {
 		try {
 			extentLogs.info("HN Portal ", "HN Portal - Launched");
 			
+			
 			if (actionLib.IsElementVisible(HN_OR.CompsAndTabs)) {
 				
 				//Select Product Category
-				actionLib.Click(HN_OR.CompsAndTabs, "Comps and Tabs");				
+				actionLib.Click(HN_OR.CompsAndTabs, "Comps and Tabs");
+				//actionLib.JSClick(HN_OR.CompsAndTabs);
 				actionLib.Click(HN_OR.MacTab, "Macs");				
 				actionLib.waitForElementPresent(HN_OR.AddtItemToCart, 60);
 				
@@ -172,7 +174,7 @@ public class HN_Pages_Updated extends BasePage {
 		 		 
 		 postReq.addHeader("accept", "application/json");
 		 //postReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
-		 postReq.addHeader("Authorization", "Basic c3JpdmFsbGkua2F0cmVkZGlAY2lnbml0aS5jb206Q2lnbml0aTEyMw==");
+		 postReq.addHeader("Authorization", "Basic cHVybmEubXV0eWFsYUBjaWduaXRpLmNvbTptdXR5YWxhczEyMjE=");
 		 
 		 List<NameValuePair> pairs = new ArrayList<NameValuePair>();
 		 pairs.add(new BasicNameValuePair("TestId", config_prop.getProperty("QAC_TestId")));
@@ -230,7 +232,7 @@ public class HN_Pages_Updated extends BasePage {
 		 		 
 		 getRequest.addHeader("accept", "application/json");
 		 //getRequest.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
-		 getRequest.addHeader("Authorization", "Basic c3JpdmFsbGkua2F0cmVkZGlAY2lnbml0aS5jb206Q2lnbml0aTEyMw==");
+		 getRequest.addHeader("Authorization", "Basic cHVybmEubXV0eWFsYUBjaWduaXRpLmNvbTptdXR5YWxhczEyMjE=");
 		 
 		/*HttpGet getRequest = new HttpGet(
 		"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/" + TestId1 + "/items");
@@ -280,7 +282,7 @@ public class HN_Pages_Updated extends BasePage {
 		 patchReq.addHeader("Content-Type", "application/json");
 		 //patchReq.addHeader("Authorization", "Basic c3lhbWt1bWFyLmJtQGNpZ25pdGkuY29tOkNpZ25pdGkxMjM=");
 		 //patchReq.addHeader("Authorization", "Basic anlvdGhpLnNhbmt1QGNpZ25pdGkuY29tOkp5b3RoaUAzMjE=");
-		 patchReq.addHeader("Authorization", "Basic c3JpdmFsbGkua2F0cmVkZGlAY2lnbml0aS5jb206Q2lnbml0aTEyMw==");
+		 patchReq.addHeader("Authorization", "Basic cHVybmEubXV0eWFsYUBjaWduaXRpLmNvbTptdXR5YWxhczEyMjE=");
 		 
 		/*HttpPatch patchReq = new HttpPatch(
 				"https://app.qacomplete.smartbear.com/rest-api/service/api/v2/projects/106798/testruns/"+TestId1+"/items/"+TestId2);
@@ -344,7 +346,7 @@ public class HN_Pages_Updated extends BasePage {
 		postReq.addHeader("accept", "application/json");
 		postReq.addHeader("Content-Type", "application/json");
 		//postReq.addHeader("Authorization", "dmVudWdvcGFsa2FkaXJpfHZlbnVnb3BhbC5rYWRpcmlAY2lnbml0aS5jb206MTU0NDYyNjgxNTEyNjplNThkNDYzZmFiMzI3ZTRhOGNiZTkzOGU5YTExMDAwNQ=");
-		postReq.addHeader("Authorization", "Y2lnbml0aTF8c3JpdmFsbGkua2F0cmVkZGlAY2lnbml0aS5jb206MTU0OTcwOTY1NDUxMjo4ZWU2OWNkNDFlOWQ5ZTI2MzlkNmRlZTU2MzNjYTgwNQ=");
+		postReq.addHeader("Authorization", "cHVybmExMjIxfHB1cm5hLm11dHlhbGFAY2lnbml0aS5jb206MTU0OTk1NzQ1NzU2Njo0ZDY5ZDBhMDZjNjgyYzg0YWU4NTQ5N2VmNWQyNDUzYw=");
 		
 		
 		//using JSON object to send body data

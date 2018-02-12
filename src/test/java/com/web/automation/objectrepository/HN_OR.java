@@ -4,10 +4,12 @@ import org.openqa.selenium.By;
 
 public class HN_OR {
 
-	//LOGINnn
+	//LOGIN
 	
 	public static By CompsAndTabs = By.xpath("//*[@id='navMdList']/ul/li[3]/a");
+	//public static By CompsAndTabs = By.xpath("//*[@id='navMdList']/ul/li/a[@title='Computers & Tablets']");
 	public static By MacTab = By.xpath("//*[@id='navMdContent']/div/div[1]/div[2]/ul[2]/li[1]/a");
+	//public static By MacTab = By.xpath("//*[@id='navMdContent']//a[contains(text(),'Apple Mac Computers')]");
 	
 
 	public static By PageHeading = By.xpath("//*[@class='page-heading']");
